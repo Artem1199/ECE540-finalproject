@@ -1,0 +1,111 @@
+C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/litedram_core.v {1 {vlog -work work -vopt -stats=none C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/litedram_core.v
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module litedram_core
+
+Top level modules:
+	litedram_core
+
+} {} {}} C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_shift.v {1 {vlog -work work -vopt -stats=none C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_shift.v
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module serv_shift
+
+Top level modules:
+	serv_shift
+
+} {} {}} C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_if.v {1 {vlog -work work -vopt -stats=none C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_if.v
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module serv_rf_if
+
+Top level modules:
+	serv_rf_if
+
+} {} {}} C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_csr.v {1 {vlog -work work -vopt -stats=none C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_csr.v
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module serv_csr
+
+Top level modules:
+	serv_csr
+
+} {} {}} C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/litedram_top.v {1 {vlog -work work -vopt -stats=none C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/litedram_top.v
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module litedram_top
+
+Top level modules:
+	litedram_top
+
+} {} {}} C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_state.v {1 {vlog -work work -vopt -stats=none C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_state.v
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module serv_state
+
+Top level modules:
+	serv_state
+
+} {} {}} C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_alu.v {1 {vlog -work work -vopt -stats=none C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_alu.v
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module serv_alu
+
+Top level modules:
+	serv_alu
+
+} {} {}} C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_bufreg.v {1 {vlog -work work -vopt -stats=none C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_bufreg.v
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module serv_bufreg
+
+Top level modules:
+	serv_bufreg
+
+} {} {}} C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_ram_if.v {1 {vlog -work work -vopt -stats=none C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_ram_if.v
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module serv_rf_ram_if
+
+Top level modules:
+	serv_rf_ram_if
+
+} {} {}} C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_mem_if.v {1 {vlog -work work -vopt -stats=none C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_mem_if.v
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module serv_mem_if
+
+Top level modules:
+	serv_mem_if
+
+} {} {}} C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_ram.v {1 {vlog -work work -vopt -stats=none C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_ram.v
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module serv_rf_ram
+
+Top level modules:
+	serv_rf_ram
+
+} {} {}} C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_top.v {1 {vlog -work work -vopt -stats=none C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_top.v
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module serv_rf_top
+
+Top level modules:
+	serv_rf_top
+
+} {} {}} C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_top.v {1 {vlog -work work -vopt -stats=none C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_top.v
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module serv_top
+
+Top level modules:
+	serv_top
+
+} {} {}} C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_decode.v {1 {vlog -work work -vopt -stats=none C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_decode.v
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module serv_decode
+
+Top level modules:
+	serv_decode
+
+} {} {}} C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/QuestaSim/rvfpgasim.v {0 {vlog -work work -vopt -stats=none C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/QuestaSim/rvfpgasim.v
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module rvfpgasim
+** Error: C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/QuestaSim/rvfpgasim.v(132): (vlog-2163) Macro `RV_LSU_BUS_TAG is undefined.
+
+} {4.0 5.0} {}} C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_ctrl.v {1 {vlog -work work -vopt -stats=none C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_ctrl.v
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module serv_ctrl
+
+Top level modules:
+	serv_ctrl
+
+} {} {}}

@@ -1,0 +1,359 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 12 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/QuestaSim
+vlitedram_core
+Z1 !s110 1605435631
+!i10b 1
+!s100 nZ6m?zVKzS<J5j7IeGd7d0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I3cLf]z<N:7:8cf]<0`FXE2
+R0
+Z3 w1605431245
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/litedram_core.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/litedram_core.v
+!i122 14
+L0 4 18232
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.3;71
+r1
+!s85 0
+31
+Z6 !s108 1605435631.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/litedram_core.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/litedram_core.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 tCvgOpt 0
+vlitedram_top
+Z9 !s110 1605435628
+!i10b 1
+!s100 8hSf_9bGQej23gKCUahVg3
+R2
+IL;<84?8hVOM@i3CeXAQXO3
+R0
+R3
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/litedram_top.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/litedram_top.v
+!i122 0
+L0 27 135
+R4
+R5
+r1
+!s85 0
+31
+Z10 !s108 1605435628.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/litedram_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/litedram_top.v|
+!i113 0
+R7
+R8
+vserv_alu
+R1
+!i10b 1
+!s100 943?6ITJbZHBf3PD02AKT0
+R2
+IRnHZ>JBoKI<]P<;]7;X841
+R0
+R3
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_alu.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_alu.v
+!i122 13
+L0 2 105
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_alu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_alu.v|
+!i113 0
+R7
+R8
+vserv_bufreg
+R1
+!i10b 1
+!s100 @^^Md2ng>A8A]1J9dFLS@2
+R2
+IiF^]k<S8DQem]?dV;lXKo1
+R0
+R3
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_bufreg.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_bufreg.v
+!i122 12
+L0 1 42
+R4
+R5
+r1
+!s85 0
+31
+Z11 !s108 1605435630.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_bufreg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_bufreg.v|
+!i113 0
+R7
+R8
+vserv_csr
+Z12 !s110 1605435630
+!i10b 1
+!s100 =l^XL7?8:fTMj?][O_ITl3
+R2
+I`WTTa8MD?6b^PnEPVM5zY1
+R0
+R3
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_csr.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_csr.v
+Z13 FC:\git\ECE540-finalproject\rvfpga_28Oct2020\src\LiteDRAM\serv_1.0.2\serv_params.vh
+!i122 11
+L0 2 118
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:\git\ECE540-finalproject\rvfpga_28Oct2020\src\LiteDRAM\serv_1.0.2\serv_params.vh|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_csr.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_csr.v|
+!i113 0
+R7
+R8
+vserv_ctrl
+R12
+!i10b 1
+!s100 bH[BQaV<XhD9UW>VJK46N3
+R2
+IO3C;>EPeKOlU62cOIKA2=0
+R0
+R3
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_ctrl.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_ctrl.v
+!i122 10
+L0 2 86
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_ctrl.v|
+!i113 0
+R7
+R8
+vserv_decode
+R12
+!i10b 1
+!s100 1nePQ77i?b4jdcE4zB9]k3
+R2
+I?_olA]zlE;FGKiKnn56WT0
+R0
+R3
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_decode.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_decode.v
+R13
+!i122 9
+L0 2 249
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:\git\ECE540-finalproject\rvfpga_28Oct2020\src\LiteDRAM\serv_1.0.2\serv_params.vh|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_decode.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_decode.v|
+!i113 0
+R7
+R8
+vserv_mem_if
+R12
+!i10b 1
+!s100 <_>5BnZba=Rf9B43fzM_S0
+R2
+IJG4NY1oK2;]5O0CSaehzD1
+R0
+R3
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_mem_if.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_mem_if.v
+!i122 8
+L0 2 67
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_mem_if.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_mem_if.v|
+!i113 0
+R7
+R8
+vserv_rf_if
+R12
+!i10b 1
+!s100 ZBQSLjk44mjFUE`N1UmkV1
+R2
+I9F3Q[dmYGV@Ah<g]gGS>]1
+R0
+R3
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_if.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_if.v
+R13
+!i122 7
+L0 2 132
+R4
+R5
+r1
+!s85 0
+31
+Z14 !s108 1605435629.000000
+!s107 C:\git\ECE540-finalproject\rvfpga_28Oct2020\src\LiteDRAM\serv_1.0.2\serv_params.vh|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_if.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_if.v|
+!i113 0
+R7
+R8
+vserv_rf_ram
+Z15 !s110 1605435629
+!i10b 1
+!s100 MZ8m:8Y`hC_?kkGZhln<k0
+R2
+IlmAeY37_C9CUzZ6B:l04k1
+R0
+R3
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_ram.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_ram.v
+!i122 6
+L0 1 26
+R4
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_ram.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_ram.v|
+!i113 0
+R7
+R8
+vserv_rf_ram_if
+R15
+!i10b 1
+!s100 o0MS`5hKEMbfD;cUnFVGm1
+R2
+IL407j_8`GXYWklZdI;?VM1
+R0
+R3
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_ram_if.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_ram_if.v
+!i122 5
+L0 2 160
+R4
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_ram_if.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_ram_if.v|
+!i113 0
+R7
+R8
+vserv_rf_top
+R15
+!i10b 1
+!s100 N<AocO2mgKJTFZngk>dV>1
+R2
+ICXoUNOh0K:_bdzG9hUf;F1
+R0
+R3
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_top.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_top.v
+!i122 4
+L0 3 161
+R4
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_top.v|
+!i113 0
+R7
+R8
+vserv_shift
+R15
+!i10b 1
+!s100 m6eN>2oL]Pz<Yi`8oBD?31
+R2
+IzFKgmRVi3kVDbW^LO1jK71
+R0
+R3
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_shift.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_shift.v
+!i122 3
+L0 2 29
+R4
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_shift.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_shift.v|
+!i113 0
+R7
+R8
+vserv_state
+R9
+!i10b 1
+!s100 cmDVG47kF]zWzRITKUz>m2
+R2
+I?J2`mfR<C5Ha7HV8bf@IB0
+R0
+R3
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_state.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_state.v
+!i122 2
+L0 1 153
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_state.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_state.v|
+!i113 0
+R7
+R8
+vserv_top
+R9
+!i10b 1
+!s100 ENG]KX3d[2BBN:RfaZ`K72
+R2
+IQonFboj3U=>9SED]5?[X80
+R0
+R3
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_top.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_top.v
+!i122 1
+L0 3 492
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_top.v|
+!i113 0
+R7
+R8
