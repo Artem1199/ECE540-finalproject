@@ -9,351 +9,4457 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/QuestaSim
-vlitedram_core
-Z1 !s110 1605435631
+vaddr_decode
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z2 !s110 1605474592
 !i10b 1
-!s100 nZ6m?zVKzS<J5j7IeGd7d0
-Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I3cLf]z<N:7:8cf]<0`FXE2
+!s100 S=4Sa`CI]b5MmOK>08[o83
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I9WSiRZj16<86[7OJH`l6Q0
+S1
 R0
-Z3 w1605431245
-8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/litedram_core.v
-FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/litedram_core.v
-!i122 14
-L0 4 18232
-Z4 VDg1SIo80bB@j0V0VzS_@n1
-Z5 OL;L;2020.3;71
+Z4 w1605431245
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/addr_decode.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/addr_decode.sv
+!i122 234
+L0 43 98
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2020.3;71
 r1
 !s85 0
 31
-Z6 !s108 1605435631.000000
+Z7 !s108 1605474592.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/addr_decode.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/addr_decode.sv|
+!i113 0
+Z8 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 tCvgOpt 0
+varbiter
+Z10 !s110 1605474606
+!i10b 1
+!s100 b`gm@@1I4h5z8zkOfn<<W0
+R3
+I=Zbm4FJS2=39`o^1X1ST82
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/OtherSources/verilog-arbiter_0-r3/src/arbiter.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/OtherSources/verilog-arbiter_0-r3/src/arbiter.v
+!i122 297
+L0 30 107
+R5
+R6
+r1
+!s85 0
+31
+!s108 1605474606.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/OtherSources/verilog-arbiter_0-r3/src/arbiter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/OtherSources/verilog-arbiter_0-r3/src/arbiter.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+vaxi2wb
+Z12 !s110 1605474604
+!i10b 1
+!s100 <@URQIKSzT0V]LNnIi`z:0
+R3
+Im5RAGWJCA@VFZlkc?1o@N1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/AxiToWb/axi2wb.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/AxiToWb/axi2wb.v
+!i122 289
+L0 25 365
+R5
+R6
+r1
+!s85 0
+31
+Z13 !s108 1605474604.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/AxiToWb/axi2wb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/AxiToWb/axi2wb.v|
+!i113 0
+R11
+R9
+vaxi4_to_ahb
+R1
+Z14 !s110 1605474616
+!i10b 1
+!s100 ]QEBK=GciBT[1;cJ5@;]D3
+R3
+I3Xz<cbLW:gdH@`U]l8W@o1
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/lib/axi4_to_ahb.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/lib/axi4_to_ahb.sv
+!i122 322
+L0 24 447
+R5
+R6
+r1
+!s85 0
+31
+Z15 !s108 1605474616.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/lib/axi4_to_ahb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/lib/axi4_to_ahb.sv|
+!i113 0
+R8
+R9
+vaxi_atop_filter
+R1
+Z16 DXx4 work 7 axi_pkg 0 22 XmdH9bjbz:E>9>f>XHz::1
+Z17 !s110 1605474586
+!i10b 1
+!s100 [O=ALe;5P7H;h`TM4L:M<2
+R3
+IkB[Bf[gz8fdD1djm@^Lj[0
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_atop_filter.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_atop_filter.sv
+!i122 219
+L0 36 333
+R5
+R6
+r1
+!s85 0
+31
+Z18 !s108 1605474586.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_atop_filter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_atop_filter.sv|
+!i113 0
+R8
+R9
+YAXI_BUS
+R1
+R16
+Z19 !s110 1605474588
+!i10b 1
+!s100 a]?hBFn>Fl67]dB>jeV623
+R3
+Ic5:6aY4YdVFmWb1;T=PoM1
+S1
+R0
+R4
+Z20 8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_intf.sv
+Z21 FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_intf.sv
+!i122 227
+Z22 L0 19 0
+R5
+R6
+r1
+!s85 0
+31
+Z23 !s108 1605474588.000000
+Z24 !s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_intf.sv|
+Z25 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_intf.sv|
+!i113 0
+R8
+R9
+n@a@x@i_@b@u@s
+YAXI_BUS_ASYNC
+R1
+R16
+R19
+!i10b 1
+!s100 Ob9z`29GO9CBHR9fZzK@<3
+R3
+IFalF301e<R=YfB@>BbOnj1
+S1
+R0
+R4
+R20
+R21
+!i122 227
+L0 249 0
+R5
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 0
+R8
+R9
+n@a@x@i_@b@u@s_@a@s@y@n@c
+YAXI_BUS_DV
+R1
+R16
+R19
+!i10b 1
+!s100 olFlHoEcf_a0ocdmZF9oM2
+R3
+I;@4>4[T5oHEI:cI^gLNhC1
+S1
+R0
+R4
+R20
+R21
+!i122 227
+L0 104 0
+R5
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 0
+R8
+R9
+n@a@x@i_@b@u@s_@d@v
+vaxi_cut
+R1
+R17
+!i10b 1
+!s100 NoTQkNZgXVHGzBmjNGCSJ2
+R3
+I?^0VW0lkM]Kz0J@PV2GA02
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_cut.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_cut.sv
+!i122 220
+L0 18 94
+R5
+R6
+r1
+!s85 0
+31
+R18
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_cut.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_cut.sv|
+!i113 0
+R8
+R9
+vaxi_delayer
+R1
+R17
+!i10b 1
+!s100 e_?]Md4Q9fbh?0EjSdFhk2
+R3
+Ief`X4_]iH?Le_bznH8?N[0
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_delayer.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_delayer.sv
+!i122 221
+L0 14 105
+R5
+R6
+r1
+!s85 0
+31
+R18
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_delayer.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_delayer.sv|
+!i113 0
+R8
+R9
+vaxi_dw_converter
+R1
+Z26 !s110 1605474587
+!i10b 1
+!s100 LDSjU`fP42HIha^4^PjO:2
+R3
+IgnES4dMi]jj?`a3I??@bT3
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_dw_converter.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_dw_converter.sv
+!i122 222
+L0 17 94
+R5
+R6
+r1
+!s85 0
+31
+Z27 !s108 1605474587.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_dw_converter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_dw_converter.sv|
+!i113 0
+R8
+R9
+vaxi_dw_downsizer
+R1
+R16
+R26
+!i10b 1
+!s100 ]E4SM9YnHa]mHTYRBZ^^f3
+R3
+I=Xb<OHFk^XSSFC7GC_Ymi0
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_dw_downsizer.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_dw_downsizer.sv
+!i122 223
+L0 21 763
+R5
+R6
+r1
+!s85 0
+31
+R27
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_dw_downsizer.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_dw_downsizer.sv|
+!i113 0
+R8
+R9
+vaxi_dw_upsizer
+R1
+R16
+R26
+!i10b 1
+!s100 l[6_^;iBT>XMj6olcm3AJ1
+R3
+I0jQW3L@;gz=3ZJ?2G68=U2
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_dw_upsizer.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_dw_upsizer.sv
+!i122 224
+L0 20 636
+R5
+R6
+r1
+!s85 0
+31
+R27
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_dw_upsizer.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_dw_upsizer.sv|
+!i113 0
+R8
+R9
+vaxi_err_slv
+R1
+R16
+R19
+!i10b 1
+!s100 fYTo1]mIihLTEG4^bMNd11
+R3
+Io7B3>WUR>M[Z=oP]m3Mom0
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_err_slv.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_err_slv.sv
+!i122 225
+L0 16 241
+R5
+R6
+r1
+!s85 0
+31
+R27
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_err_slv.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_err_slv.sv|
+!i113 0
+R8
+R9
+vaxi_id_prepend
+R1
+R19
+!i10b 1
+!s100 ^KJoEiaI>jUebf>W?2RDj1
+R3
+I53Aa=:okHmk@K^Wj:0JLW3
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_id_prepend.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_id_prepend.sv
+!i122 226
+Z28 L0 16 144
+R5
+R6
+r1
+!s85 0
+31
+R23
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_id_prepend.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_id_prepend.sv|
+!i113 0
+R8
+R9
+YAXI_LITE
+R1
+R16
+R19
+!i10b 1
+!s100 mT4n[Og640Ig<_>iZN7W91
+R3
+IQ`U`dMNf[<Z8zIh@4^cAi2
+S1
+R0
+R4
+R20
+R21
+!i122 227
+L0 337 0
+R5
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 0
+R8
+R9
+n@a@x@i_@l@i@t@e
+YAXI_LITE_DV
+R1
+R16
+R19
+!i10b 1
+!s100 6SC=];<fc^_BEYT>j=6km0
+R3
+IM7=HZ1ajO>CHjlnNYa3m72
+S1
+R0
+R4
+R20
+R21
+!i122 227
+L0 392 0
+R5
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 0
+R8
+R9
+n@a@x@i_@l@i@t@e_@d@v
+vaxi_lite_to_axi
+R1
+R16
+Z29 !s110 1605474590
+!i10b 1
+!s100 DQZ9OkNL0HaM<39_P;@P41
+R3
+Ib;QNPdE;7SJ[ce;HEaYXe1
+S1
+R0
+R4
+Z30 8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_lite_to_axi.sv
+Z31 FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_lite_to_axi.sv
+!i122 228
+L0 16 78
+R5
+R6
+r1
+!s85 0
+31
+Z32 !s108 1605474590.000000
+Z33 !s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_lite_to_axi.sv|
+Z34 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_lite_to_axi.sv|
+!i113 0
+R8
+R9
+vaxi_lite_to_axi_intf
+R1
+R16
+R29
+!i10b 1
+!s100 `<_B_aIT6Qk?c;h^BkSkE0
+R3
+IQWdc52K>E5H53A]H5OGcA1
+S1
+R0
+R4
+R30
+R31
+!i122 228
+L0 95 64
+R5
+R6
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R8
+R9
+vaxi_mem_wrapper
+Z35 !s110 1605474607
+!i10b 1
+!s100 dgTb[EZnZgL<S:ZJRh]^K1
+R3
+I@NM72@M8WT:NQhz7mPo7C3
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/OtherSources/axi_mem_wrapper.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/OtherSources/axi_mem_wrapper.v
+!i122 298
+L0 25 133
+R5
+R6
+r1
+!s85 0
+31
+Z36 !s108 1605474607.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/OtherSources/axi_mem_wrapper.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/OtherSources/axi_mem_wrapper.v|
+!i113 0
+R11
+R9
+vaxi_modify_address
+R1
+R29
+!i10b 1
+!s100 dUF966NZ?_>bOUL8Z`aW[2
+R3
+IWG6@iRZ?1`3P079JUC3@i0
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_modify_address.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_modify_address.sv
+!i122 229
+Z37 L0 16 65
+R5
+R6
+r1
+!s85 0
+31
+R32
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_modify_address.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_modify_address.sv|
+!i113 0
+R8
+R9
+vaxi_multicut
+R1
+R29
+!i10b 1
+!s100 `FSGfJY9BBEI5L7dmNNmm1
+R3
+IeN6i^PGgIAL_OHbiQWTSN2
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_multicut.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_multicut.sv
+!i122 230
+L0 18 70
+R5
+R6
+r1
+!s85 0
+31
+R32
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_multicut.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_multicut.sv|
+!i113 0
+R8
+R9
+Xaxi_pkg
+R1
+Z38 !s110 1605474591
+!i10b 1
+!s100 >Ub;06P9bGkNQ]ITMoL[_3
+R3
+IXmdH9bjbz:E>9>f>XHz::1
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_pkg.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_pkg.sv
+!i122 231
+L0 17 0
+VXmdH9bjbz:E>9>f>XHz::1
+R6
+r1
+!s85 0
+31
+Z39 !s108 1605474591.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_pkg.sv|
+!i113 0
+R8
+R9
+vaxi_to_axi_lite
+R1
+R38
+!i10b 1
+!s100 OGS>fXSTT:V`[D67LojP62
+R3
+I^D[EH;R>V9TA9flkU5DfP0
+S1
+R0
+R4
+Z40 8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_to_axi_lite.sv
+Z41 FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_to_axi_lite.sv
+!i122 232
+L0 18 92
+R5
+R6
+r1
+!s85 0
+31
+R39
+Z42 !s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_to_axi_lite.sv|
+Z43 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_to_axi_lite.sv|
+!i113 0
+R8
+R9
+vaxi_to_axi_lite_id_reflect
+R1
+R38
+!i10b 1
+!s100 XOai=aH]e6Wk=MYVPTBJD1
+R3
+IBhPIO;Oh[K@N3X2=HGB0?3
+S1
+R0
+R4
+R40
+R41
+!i122 232
+L0 116 128
+R5
+R6
+r1
+!s85 0
+31
+R39
+R42
+R43
+!i113 0
+R8
+R9
+vaxi_uart_wrapper
+Z44 !s110 1605474609
+!i10b 1
+!s100 X;X6UNA5ZO>=V`2ja:;mk1
+R3
+ITBH0zQVcIMmoB]HjCb2Lc3
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/axi_uart_wrapper.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/axi_uart_wrapper.v
+!i122 306
+L0 25 126
+R5
+R6
+r1
+!s85 0
+31
+Z45 !s108 1605474609.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/axi_uart_wrapper.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/axi_uart_wrapper.v|
+!i113 0
+R11
+R9
+vaxi_xbar
+R1
+R16
+R38
+!i10b 1
+!s100 BQ7VdST9F`7<=CLhQoj8Q2
+R3
+IH?hE2W2k`JDK?j][]55i=3
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_xbar.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_xbar.sv
+!i122 233
+L0 15 211
+R5
+R6
+r1
+!s85 0
+31
+R39
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_xbar.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__axi_0.23.0-r1/src/axi_xbar.sv|
+!i113 0
+R8
+R9
+vbidirec
+!s110 1605474620
+!i10b 1
+!s100 X86noEekS00hWR6;;hk9a0
+R3
+ITEHPRlYYZ^oFIR?b:2zmF0
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/swervolf_core.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/swervolf_core.v
+!i122 326
+L0 633 6
+R5
+R6
+r1
+!s85 0
+31
+!s108 1605474620.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/swervolf_core.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/swervolf_core.v|
+!i113 0
+R11
+R9
+vbinary_to_gray
+R1
+Z46 !s110 1605474595
+!i10b 1
+!s100 h<aF?URczUlk<=7RZ;7c[0
+R3
+I4XR=UFTO8oJVXTAMFW?RB2
+S1
+R0
+R4
+Z47 8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/graycode.sv
+Z48 FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/graycode.sv
+!i122 249
+L0 15 8
+R5
+R6
+r1
+!s85 0
+31
+Z49 !s108 1605474595.000000
+Z50 !s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/graycode.sv|
+Z51 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/graycode.sv|
+!i113 0
+R8
+R9
+vbscan_tap
+R1
+Z52 !s110 1605474584
+!i10b 1
+!s100 j1OVMHH@_E`ITVA4C[6?Y0
+R3
+I2BjmEe^zlOJBJ8_zZH@kg1
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/bscanTAP/bscan_tap.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/bscanTAP/bscan_tap.sv
+!i122 216
+R28
+R5
+R6
+r1
+!s85 0
+31
+Z53 !s108 1605474584.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/bscanTAP/bscan_tap.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/bscanTAP/bscan_tap.sv|
+!i113 0
+R8
+R9
+vcb_filter
+R1
+Z54 DXx4 work 13 cb_filter_pkg 0 22 zWjNSX;kjBmX7BfWMlcA03
+R2
+!i10b 1
+!s100 4Ooh<MO06IMU^FMg3H75n3
+R3
+I5SWO>=d<EH21eadKd8^8=3
+S1
+R0
+R4
+Z55 8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/cb_filter.sv
+Z56 FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/cb_filter.sv
+!i122 235
+L0 58 155
+R5
+R6
+r1
+!s85 0
+31
+R7
+Z57 !s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/cb_filter.sv|
+Z58 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/cb_filter.sv|
+!i113 0
+R8
+R9
+Xcb_filter_pkg
+R1
+R2
+!i10b 1
+!s100 P;3V0Jo[^jz@o<_8i2k]H3
+R3
+IzWjNSX;kjBmX7BfWMlcA03
+S1
+R0
+R4
+R55
+R56
+!i122 235
+L0 43 0
+VzWjNSX;kjBmX7BfWMlcA03
+R6
+r1
+!s85 0
+31
+R7
+R57
+R58
+!i113 0
+R8
+R9
+vcc561
+R12
+!i10b 1
+!s100 g7X7M=kN]DUCc<PHdoWCl2
+R3
+Ih1@_<aV=_H17PbghXl?GU3
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2/cdc_utils_0.1/cc561.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2/cdc_utils_0.1/cc561.v
+!i122 290
+L0 16 36
+R5
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2/cdc_utils_0.1/cc561.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2/cdc_utils_0.1/cc561.v|
+!i113 0
+R11
+R9
+vcdc_2phase
+R1
+R2
+!i10b 1
+!s100 OSd_7U?8<mL_goN5B`R`X2
+R3
+Ik_BinU?P^@RcSVYh3akVj3
+S1
+R0
+R4
+Z59 8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/cdc_2phase.sv
+Z60 FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/cdc_2phase.sv
+!i122 236
+L0 19 46
+R5
+R6
+r1
+!s85 0
+31
+R7
+Z61 !s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/cdc_2phase.sv|
+Z62 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/cdc_2phase.sv|
+!i113 0
+R8
+R9
+vcdc_2phase_dst
+R1
+R2
+!i10b 1
+!s100 O5jXmc?UIfa:1ndT_nhDX2
+R3
+IG`hg09_Z;gk]D:lTbH]]E3
+S1
+R0
+R4
+R59
+R60
+!i122 236
+L0 118 57
+R5
+R6
+r1
+!s85 0
+31
+R7
+R61
+R62
+!i113 0
+R8
+R9
+vcdc_2phase_src
+R1
+R2
+!i10b 1
+!s100 nkoF=YVe:Fnzh58jZSSKK3
+R3
+IKCfK@>b`ezj;9QIcDPLW]0
+S1
+R0
+R4
+R59
+R60
+!i122 236
+L0 68 46
+R5
+R6
+r1
+!s85 0
+31
+R7
+R61
+R62
+!i113 0
+R8
+R9
+vcdc_fifo_2phase
+R1
+Z63 !s110 1605474593
+!i10b 1
+!s100 QcoQT<A>fJ[E@;QfS2;<X0
+R3
+IEbO_l0LDdQ0U84E9gcD_Q0
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/cdc_fifo_2phase.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/cdc_fifo_2phase.sv
+!i122 237
+L0 22 113
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/cdc_fifo_2phase.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/cdc_fifo_2phase.sv|
+!i113 0
+R8
+R9
+Xcf_math_pkg
+R1
+R63
+!i10b 1
+!s100 [`O?aHnL742?Ai:@o:g`12
+R3
+I_Z3F<Y_UFJK]aDl]E]S6`2
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/cf_math_pkg.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/cf_math_pkg.sv
+!i122 238
+R22
+V_Z3F<Y_UFJK]aDl]E]S6`2
+R6
+r1
+!s85 0
+31
+Z64 !s108 1605474593.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/cf_math_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/cf_math_pkg.sv|
+!i113 0
+R8
+R9
+vclk_div
+R1
+R63
+!i10b 1
+!s100 EbElOSZ^2ET@BXVAhHgS_1
+R3
+IDle=2`G4BjBZa6ahbSI@G2
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/clk_div.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/clk_div.sv
+!i122 239
+L0 13 30
+R5
+R6
+r1
+!s85 0
+31
+R64
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/clk_div.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/clk_div.sv|
+!i113 0
+R8
+R9
+vclk_gen_nexys
+R52
+!i10b 1
+!s100 CZd8UKK3@l;ieCA=HT02O2
+R3
+I5N@b;>9hO489Y87BHeHkK1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/clk_gen_nexys.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/clk_gen_nexys.v
+!i122 215
+L0 24 37
+R5
+R6
+r1
+!s85 0
+31
+R53
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/clk_gen_nexys.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/clk_gen_nexys.v|
+!i113 0
+R11
+R9
+vclock_divider
+R1
+Z65 !s110 1605474601
+!i10b 1
+!s100 k[4eKEY6KAcz@fEM<G=;73
+R3
+IgQBUhaUIfCfk6EL@m4Jim1
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/clock_divider.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/clock_divider.sv
+!i122 278
+L0 43 149
+R5
+R6
+r1
+!s85 0
+31
+Z66 !s108 1605474601.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/clock_divider.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/clock_divider.sv|
+!i113 0
+R8
+R9
+vclock_divider_counter
+R1
+Z67 !s110 1605474602
+!i10b 1
+!s100 ?Uj777G>DPF@Q[90ROM3h0
+R3
+IAB[Dz5I6?B<UV;JKT2LgI2
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/clock_divider_counter.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/clock_divider_counter.sv
+!i122 279
+L0 43 169
+R5
+R6
+r1
+!s85 0
+31
+R66
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/clock_divider_counter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/clock_divider_counter.sv|
+!i113 0
+R8
+R9
+vcmp_and_mux
+R1
+Z68 !s110 1605474619
+!i10b 1
+!s100 LS@;kfDiCIMP2mhE6im]P1
+R3
+ISOYjA4GC9`^FfTHRm;59L1
+S1
+R0
+R4
+Z69 8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/pic_ctrl.sv
+Z70 FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/pic_ctrl.sv
+!i122 325
+L0 454 24
+R5
+R6
+r1
+!s85 0
+31
+Z71 !s108 1605474619.000000
+Z72 !s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/pic_ctrl.sv|
+Z73 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/pic_ctrl.sv|
+!i113 0
+R8
+R9
+vconfigurable_gw
+R1
+R68
+!i10b 1
+!s100 :AkdDo1L<FLm_]RIzdkl=2
+R3
+I9P;FYlknV29nKPlne75Q22
+S1
+R0
+R4
+R69
+R70
+!i122 325
+L0 480 21
+R5
+R6
+r1
+!s85 0
+31
+R71
+R72
+R73
+!i113 0
+R8
+R9
+vcounter
+R1
+R63
+!i10b 1
+!s100 fAXT?FGIi^P@i@DfJJFz_3
+R3
+I2LKfMh>6fbf9:d7bFU?WE0
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/counter.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/counter.sv
+!i122 240
+L0 14 30
+R5
+R6
+r1
+!s85 0
+31
+R64
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/counter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/counter.sv|
+!i113 0
+R8
+R9
+vdec_gpr_ctl
+R1
+!s110 1605474612
+!i10b 1
+!s100 ZTafkiH1ViW3F2;H0GoWC0
+R3
+IWVc>2]d=6XBE@==R9AeVN1
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/dec/dec_gpr_ctl.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/dec/dec_gpr_ctl.sv
+!i122 316
+L0 16 98
+R5
+R6
+r1
+!s85 0
+31
+Z74 !s108 1605474612.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/dec/dec_gpr_ctl.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/dec/dec_gpr_ctl.sv|
+!i113 0
+R8
+R9
+vdelta_counter
+R1
+Z75 !s110 1605474594
+!i10b 1
+!s100 UJbDN<mnFYXjPkcNZXXNa2
+R3
+I4QfaofO9L43;9G_^bDHCC2
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/delta_counter.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/delta_counter.sv
+!i122 241
+L0 13 62
+R5
+R6
+r1
+!s85 0
+31
+Z76 !s108 1605474594.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/delta_counter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/delta_counter.sv|
+!i113 0
+R8
+R9
+vdmi_jtag_to_core_sync
+Z77 !s110 1605474613
+!i10b 1
+!s100 =XTYED_FFH7XU5RiHQN^l0
+R3
+I9?8iCWlQmUIR:9iLlOR420
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/dmi/dmi_jtag_to_core_sync.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/dmi/dmi_jtag_to_core_sync.v
+!i122 317
+L0 21 45
+R5
+R6
+r1
+!s85 0
+31
+R74
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/dmi/dmi_jtag_to_core_sync.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/dmi/dmi_jtag_to_core_sync.v|
+!i113 0
+R11
+R9
+vdmi_wrapper
+R77
+!i10b 1
+!s100 Oki7_?0W?K[[<G;<]]_bd2
+R3
+I_ZlOUDYL_zo7ZNkV<n2P`2
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/dmi/dmi_wrapper.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/dmi/dmi_wrapper.v
+!i122 318
+L0 24 68
+R5
+R6
+r1
+!s85 0
+31
+Z78 !s108 1605474613.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/dmi/dmi_wrapper.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/dmi/dmi_wrapper.v|
+!i113 0
+R11
+R9
+vdpram64
+R35
+!i10b 1
+!s100 @cD9zaSTgUYjJO@S9ajT[3
+R3
+IOVJC6gOXbXBkGM6RUW[Ld1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/BootROM/dpram64.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/BootROM/dpram64.v
+!i122 299
+L0 24 43
+R5
+R6
+r1
+!s85 0
+31
+R36
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/BootROM/dpram64.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/BootROM/dpram64.v|
+!i113 0
+R11
+R9
+vedge_detect
+R1
+R75
+!i10b 1
+!s100 nGL:S2?<9Xzj4?mFi6J[m2
+R3
+Io[g=lkla>h7aKDD`l<?PI3
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/edge_detect.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/edge_detect.sv
+!i122 242
+L0 14 19
+R5
+R6
+r1
+!s85 0
+31
+R76
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/edge_detect.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/edge_detect.sv|
+!i113 0
+R8
+R9
+vedge_propagator
+R1
+R75
+!i10b 1
+!s100 QBBV;nzQNn=7TeJ6Q@bf32
+R3
+I_T7nG0SzV[OC@lAe^=[zK1
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/edge_propagator.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/edge_propagator.sv
+!i122 243
+L0 13 38
+R5
+R6
+r1
+!s85 0
+31
+R76
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/edge_propagator.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/edge_propagator.sv|
+!i113 0
+R8
+R9
+vedge_propagator_rx
+R1
+R75
+!i10b 1
+!s100 E9b0Ta3f9B;K@4LHPgJao2
+R3
+IB@PAcX>ALVN826D3E4<JF3
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/edge_propagator_rx.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/edge_propagator_rx.sv
+!i122 244
+L0 13 19
+R5
+R6
+r1
+!s85 0
+31
+R76
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/edge_propagator_rx.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/edge_propagator_rx.sv|
+!i113 0
+R8
+R9
+vedge_propagator_tx
+R1
+R75
+!i10b 1
+!s100 TTCnmJaMHNeY>UW7z]iTW2
+R3
+I8Nbfg75KmGOnI9X:`>UD?2
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/edge_propagator_tx.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/edge_propagator_tx.sv
+!i122 245
+L0 13 28
+R5
+R6
+r1
+!s85 0
+31
+R76
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/edge_propagator_tx.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/edge_propagator_tx.sv|
+!i113 0
+R8
+R9
+vexp_backoff
+R1
+R46
+!i10b 1
+!s100 6PEEOI94Dm1_`gLM0DH;U2
+R3
+IHO1_PK^Cj]7D>KYib2zFn0
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/exp_backoff.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/exp_backoff.sv
+!i122 246
+L0 23 72
+R5
+R6
+r1
+!s85 0
+31
+R49
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/exp_backoff.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/exp_backoff.sv|
+!i113 0
+R8
+R9
+vfall_through_register
+R1
+R46
+!i10b 1
+!s100 oDnoljjc;MO^98bA[6@Ic2
+R3
+IL;P_G9h4961miD;Ai1iIF1
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/fall_through_register.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/fall_through_register.sv
+!i122 247
+L0 15 44
+R5
+R6
+r1
+!s85 0
+31
+R49
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/fall_through_register.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/fall_through_register.sv|
+!i113 0
+R8
+R9
+vfifo
+R1
+R67
+!i10b 1
+!s100 7ziV;0M^Yg6cbXmS>m[X<3
+R3
+II]k0=W`^GXaZf@]8Nl:Pk0
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/fifo_v1.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/fifo_v1.sv
+!i122 280
+L0 14 43
+R5
+R6
+r1
+!s85 0
+31
+Z79 !s108 1605474602.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/fifo_v1.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/fifo_v1.sv|
+!i113 0
+R8
+R9
+vfifo4
+Z80 !s110 1605474608
+!i10b 1
+!s100 ;id2ZIM_mE:6h?X5C586A2
+R3
+I6D@U3TlnBPfJ?bcoi?D=P0
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/spi/fifo4.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/spi/fifo4.v
+!i122 303
+L0 54 73
+R5
+R6
+r1
+!s85 0
+31
+Z81 !s108 1605474608.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/spi/fifo4.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/spi/fifo4.v|
+!i113 0
+R11
+R9
+vfifo_v2
+R1
+R67
+!i10b 1
+!s100 Sca6DhhPQgTMQ9AI]U@P20
+R3
+IHM4da@n6RYfk@;PS5Yj5:3
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/fifo_v2.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/fifo_v2.sv
+!i122 281
+L0 13 67
+R5
+R6
+r1
+!s85 0
+31
+R79
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/fifo_v2.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/fifo_v2.sv|
+!i113 0
+R8
+R9
+vfifo_v3
+R1
+R46
+!i10b 1
+!s100 z1en]0eBE;<X4IVFzPoFD0
+R3
+INHO?aIgI`1N3zO83=UA`43
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/fifo_v3.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/fifo_v3.sv
+!i122 248
+L0 13 141
+R5
+R6
+r1
+!s85 0
+31
+R49
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/fifo_v3.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/fifo_v3.sv|
+!i113 0
+R8
+R9
+vfind_first_one
+R1
+R67
+!i10b 1
+!s100 YceGKSE6SW87znGicPo0K2
+R3
+I0?:^839WIUb8EfD0Hc6020
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/find_first_one.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/find_first_one.sv
+!i122 282
+L0 17 67
+R5
+R6
+r1
+!s85 0
+31
+R79
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/find_first_one.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/find_first_one.sv|
+!i113 0
+R8
+R9
+vgeneric_fifo
+R1
+R67
+!i10b 1
+!s100 24=4ARZn5]NWAY1W6c?1J2
+R3
+IS<W6aDN]5J;hhYLP=eBjd0
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/generic_fifo.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/generic_fifo.sv
+!i122 283
+L0 38 237
+R5
+R6
+r1
+!s85 0
+31
+R79
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/generic_fifo.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/generic_fifo.sv|
+!i113 0
+R8
+R9
+vgeneric_LFSR_8bit
+R1
+Z82 !s110 1605474603
+!i10b 1
+!s100 4W]VTcM[d6CfcMFc<H2m=1
+R3
+IRDcXM16@[o5KUM9fdM>zJ3
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/generic_LFSR_8bit.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/generic_LFSR_8bit.sv
+!i122 284
+L0 13 52
+R5
+R6
+r1
+!s85 0
+31
+Z83 !s108 1605474603.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/generic_LFSR_8bit.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/generic_LFSR_8bit.sv|
+!i113 0
+R8
+R9
+ngeneric_@l@f@s@r_8bit
+vgpio_top
+R80
+!i10b 1
+!s100 RC@ZlEEL0]JPW5:^Jg>d?1
+R3
+I7@W_anQ]1<nlgUOJWLIT[1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/gpio/gpio_top.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/gpio/gpio_top.v
+!i122 301
+L0 115 1020
+R5
+R6
+r1
+!s85 0
+31
+R81
+!s107 C:\git\ECE540-finalproject\rvfpga_28Oct2020\src\SweRVolfSoC\Peripherals\gpio\gpio_defines.v|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/gpio/gpio_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/gpio/gpio_top.v|
+!i113 0
+R11
+R9
+vgray_to_binary
+R1
+R46
+!i10b 1
+!s100 Cg]gJDXVWK1QAYhzz:7La0
+R3
+Im5X21bX<ZPWod4jVP54=<3
+S1
+R0
+R4
+R47
+R48
+!i122 249
+L0 25 9
+R5
+R6
+r1
+!s85 0
+31
+R49
+R50
+R51
+!i113 0
+R8
+R9
+vhash_block
+R1
+R54
+R2
+!i10b 1
+!s100 g>e1EQWZ3K9df9l^R8H]83
+R3
+IjWz_`FGofNE2RcS3kdi3C1
+S1
+R0
+R4
+R55
+R56
+!i122 235
+L0 215 44
+R5
+R6
+r1
+!s85 0
+31
+R7
+R57
+R58
+!i113 0
+R8
+R9
+vid_queue
+R1
+R46
+!i10b 1
+!s100 _I<Ti:Ci[TCg5QkXJ3Ez^0
+R3
+IAEVoC1YiKRW]>^lKc4d_h0
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/id_queue.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/id_queue.sv
+!i122 250
+L0 42 236
+R5
+R6
+r1
+!s85 0
+31
+R49
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/id_queue.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/id_queue.sv|
+!i113 0
+R8
+R9
+vifu_compress_ctl
+R1
+!s110 1605474614
+!i10b 1
+!s100 c[o47HBG3GKQP6z5zVKO50
+R3
+IPIT^<AS0SL^INl9hVl01i3
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/ifu/ifu_compress_ctl.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/ifu/ifu_compress_ctl.sv
+!i122 320
+L0 20 360
+R5
+R6
+r1
+!s85 0
+31
+!s108 1605474614.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/ifu/ifu_compress_ctl.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/ifu/ifu_compress_ctl.sv|
+!i113 0
+R8
+R9
+vifu_ifc_ctl
+R1
+!s110 1605474615
+!i10b 1
+!s100 9WK9giE4mV1H=ljEnhOP:0
+R3
+IPTok6zhdN8GNS4KTVf[RJ1
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/ifu/ifu_ifc_ctl.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/ifu/ifu_ifc_ctl.sv
+!i122 321
+L0 23 261
+R5
+R6
+r1
+!s85 0
+31
+!s108 1605474615.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/ifu/ifu_ifc_ctl.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/ifu/ifu_ifc_ctl.sv|
+!i113 0
+R8
+R9
+vjtag_vpi
+R52
+!i10b 1
+!s100 L@EZhWYN_?B]oQOQkPa=g0
+R3
+IzjjhW3DSVaKJQBG[Ml4Z[2
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/jtag_vpi_0-r5/jtag_vpi.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/jtag_vpi_0-r5/jtag_vpi.v
+!i122 217
+L0 39 252
+R5
+R6
+r1
+!s85 0
+31
+R53
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/jtag_vpi_0-r5/jtag_vpi.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/jtag_vpi_0-r5/jtag_vpi.v|
+!i113 0
+R11
+R9
+vlfsr
+R1
+Z84 !s110 1605474596
+!i10b 1
+!s100 RC=3o3BGW=X_JmlIADWMS0
+R3
+IDLOdSa=N7YcL_Sd4USfF>1
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/lfsr.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/lfsr.sv
+!i122 251
+L0 22 289
+R5
+R6
+r1
+!s85 0
+31
+Z85 !s108 1605474596.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/lfsr.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/lfsr.sv|
+!i113 0
+R8
+R9
+vlfsr_16bit
+R1
+R84
+!i10b 1
+!s100 D7CkDnW0OITR_WOS?=b^O3
+R3
+Ic9KViTN@XBMO_bkIeZ[Ah3
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/lfsr_16bit.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/lfsr_16bit.sv
+!i122 253
+L0 21 47
+R5
+R6
+r1
+!s85 0
+31
+R85
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/lfsr_16bit.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/lfsr_16bit.sv|
+!i113 0
+R8
+R9
+vlfsr_8bit
+R1
+R84
+!i10b 1
+!s100 THgZ<hnLPhC:ljRTCiTn73
+R3
+I?WmhZ^4@LaYM^YASTS3lo2
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/lfsr_8bit.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/lfsr_8bit.sv
+!i122 252
+L0 22 47
+R5
+R6
+r1
+!s85 0
+31
+R85
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/lfsr_8bit.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/lfsr_8bit.sv|
+!i113 0
+R8
+R9
+vlitedram_core
+!s110 1605474585
+!i10b 1
+!s100 nZ6m?zVKzS<J5j7IeGd7d0
+R3
+I3cLf]z<N:7:8cf]<0`FXE2
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/litedram_core.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/litedram_core.v
+!i122 218
+L0 4 18232
+R5
+R6
+r1
+!s85 0
+31
+!s108 1605474585.000000
 !s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/litedram_core.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/litedram_core.v|
 !i113 0
-Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z8 tCvgOpt 0
+R11
+R9
 vlitedram_top
-Z9 !s110 1605435628
+Z86 !s110 1605474581
 !i10b 1
 !s100 8hSf_9bGQej23gKCUahVg3
-R2
+R3
 IL;<84?8hVOM@i3CeXAQXO3
 R0
-R3
+R4
 8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/litedram_top.v
 FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/litedram_top.v
-!i122 0
+!i122 201
 L0 27 135
-R4
 R5
+R6
 r1
 !s85 0
 31
-Z10 !s108 1605435628.000000
+Z87 !s108 1605474581.000000
 !s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/litedram_top.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/litedram_top.v|
 !i113 0
-R7
-R8
-vserv_alu
+R11
+R9
+vlzc
 R1
+R84
 !i10b 1
-!s100 943?6ITJbZHBf3PD02AKT0
-R2
-IRnHZ>JBoKI<]P<;]7;X841
-R0
+!s100 RenM9G>:^=ih9?]JlnN3e1
 R3
-8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_alu.v
-FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_alu.v
-!i122 13
-L0 2 105
+INPEcSnLdL6dol_g_HdKD83
+S1
+R0
 R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/lzc.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/lzc.sv
+!i122 254
+L0 26 79
 R5
+R6
 r1
 !s85 0
 31
+R85
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/lzc.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/lzc.sv|
+!i113 0
+R8
+R9
+vmax_counter
+R1
+Z88 !s110 1605474597
+!i10b 1
+!s100 3Z^=a=^IP?4OC9NT01Q?K1
+R3
+IJDX6=iWX=bg3XlMRDQ0X13
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/max_counter.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/max_counter.sv
+!i122 255
+L0 13 65
+R5
 R6
+r1
+!s85 0
+31
+R85
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/max_counter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/max_counter.sv|
+!i113 0
+R8
+R9
+vmv_filter
+R1
+R88
+!i10b 1
+!s100 ;FLRbZBFX[]@jZzDcJLLn0
+R3
+IO_1CnNm<zSZKz<bA_[;]12
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/mv_filter.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/mv_filter.sv
+!i122 256
+Z89 L0 13 43
+R5
+R6
+r1
+!s85 0
+31
+Z90 !s108 1605474597.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/mv_filter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/mv_filter.sv|
+!i113 0
+R8
+R9
+vonehot_to_bin
+R1
+R88
+!i10b 1
+!s100 mHJm4b=98?L`J71B1FCz52
+R3
+I=kH?XL6J?ZX:]Yo[[Ta[W2
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/onehot_to_bin.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/onehot_to_bin.sv
+!i122 257
+L0 13 26
+R5
+R6
+r1
+!s85 0
+31
+R90
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/onehot_to_bin.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/onehot_to_bin.sv|
+!i113 0
+R8
+R9
+vplru_tree
+R1
+R88
+!i10b 1
+!s100 dffP^QC;GlTWYm^zf`_F[3
+R3
+IXJ[Gb`jYYFFVVCWFkW3em3
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/plru_tree.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/plru_tree.sv
+!i122 258
+L0 17 104
+R5
+R6
+r1
+!s85 0
+31
+R90
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/plru_tree.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/plru_tree.sv|
+!i113 0
+R8
+R9
+vpopcount
+R1
+R88
+!i10b 1
+!s100 FB;oUn>C>hz^<o=^ZS7zV3
+R3
+Ib1YFg[n6O8@NNWU6kn?0]1
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/popcount.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/popcount.sv
+!i122 259
+L0 19 42
+R5
+R6
+r1
+!s85 0
+31
+R90
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/popcount.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/popcount.sv|
+!i113 0
+R8
+R9
+vprioarbiter
+R1
+R82
+!i10b 1
+!s100 MC8LF0_hRKFD6Z@FWD9PN2
+R3
+IFSV>7=b[E7bACHYnHcfT62
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/prioarbiter.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/prioarbiter.sv
+!i122 285
+L0 18 69
+R5
+R6
+r1
+!s85 0
+31
+R83
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/prioarbiter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/prioarbiter.sv|
+!i113 0
+R8
+R9
+vptc_top
+R80
+!i10b 1
+!s100 K?=AG>_NP3WNTMg4fN;kT0
+R3
+Im52f8iVd`YcC232W87FJU2
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/ptc/ptc_top.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/ptc/ptc_top.v
+!i122 302
+L0 67 330
+R5
+R6
+r1
+!s85 0
+31
+R81
+!s107 C:\git\ECE540-finalproject\rvfpga_28Oct2020\src\SweRVolfSoC\Peripherals\ptc\ptc_defines.v|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/ptc/ptc_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/ptc/ptc_top.v|
+!i113 0
+R11
+R9
+vpulp_sync
+R1
+R82
+!i10b 1
+!s100 7V0GU4amH3[Q8@QHiAk<B0
+R3
+ITJDXeCceUnloCjZ@iL_?=0
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/pulp_sync.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/pulp_sync.sv
+!i122 286
+L0 13 24
+R5
+R6
+r1
+!s85 0
+31
+R83
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/pulp_sync.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/pulp_sync.sv|
+!i113 0
+R8
+R9
+vpulp_sync_wedge
+R1
+R82
+!i10b 1
+!s100 =MlS0QN4E[lHYN9B_ObAG2
+R3
+IRQ`JLB`bEk0zaBNl@<J223
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/pulp_sync_wedge.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/pulp_sync_wedge.sv
+!i122 287
+R89
+R5
+R6
+r1
+!s85 0
+31
+R83
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/pulp_sync_wedge.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/pulp_sync_wedge.sv|
+!i113 0
+R8
+R9
+vram_1024x20
+R1
+R14
+!i10b 1
+!s100 jh]jB9`iO:z_CgZcm^@AY3
+R3
+I@J:OSR`=Ab:AkH`1<6MSh3
+S1
+R0
+R4
+Z91 8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/lib/mem_lib.sv
+Z92 FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/lib/mem_lib.sv
+!i122 324
+L0 306 22
+R5
+R6
+r1
+!s85 0
+31
+R15
+Z93 !s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/lib/mem_lib.sv|
+Z94 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/lib/mem_lib.sv|
+!i113 0
+R8
+R9
+vram_1024x21
+R1
+R14
+!i10b 1
+!s100 <VZOfb;fI^ff02UD`GU=Q3
+R3
+IEGZ6k7GLO2>I0:XYTKXK81
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 776 22
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_1024x25
+R1
+R14
+!i10b 1
+!s100 KhVMZo8Y3>@[NH@^VT3DL2
+R3
+I2Hb?;ij<`c6@YV4z?]Inz1
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 899 23
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_1024x34
+R1
+R14
+!i10b 1
+!s100 DE6MW;`0PZZQFH4AN37_41
+R3
+IgX8T]_6SDdegf<^kc>Yb53
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 474 23
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_1024x39
+R1
+R14
+!i10b 1
+!s100 BkK[gGM0h]X[?kFI>_gTG1
+R3
+I8VZo]KBBjlT=XVlMJWg053
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 185 22
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_1024x42
+R1
+R14
+!i10b 1
+!s100 RFa;@Wd[9L=>gdJHgjNh00
+R3
+IGGhCF8>3[IeZI4g5aXnhk0
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 649 21
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_128x20
+R1
+R14
+!i10b 1
+!s100 ieL4Se;f7W<<2j9fT5Rbh3
+R3
+ImSQHi?`bEZAeWKVUnJ^7m2
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 374 22
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_128x21
+R1
+R14
+!i10b 1
+!s100 8R65A0_f0>nV0c2:VI<I82
+R3
+I^jdND927T>BTZ;;MY>`WP2
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 850 23
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_128x25
+R1
+R14
+!i10b 1
+!s100 M]aROZX_@I=bL`6;cc?Ea0
+R3
+IGJOL4>06cVZWUPOiYSDPJ0
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 976 24
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_128x34
+R1
+R14
+!i10b 1
+!s100 UViZf6^T`YL2A61><?NIM3
+R3
+IX5b9=Y674mi970L:`<OYO3
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 549 22
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_128x39
+R1
+R14
+!i10b 1
+!s100 OAjm0n^SJCd4a[R=:oWT61
+R3
+I>N;UR?CZS4ATlk[6fLgXc1
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 280 22
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_128x42
+R1
+R14
+!i10b 1
+!s100 eT:Pi<@^5k4]9I>lN5J:N2
+R3
+I?=b[3U;N>9@oL;SgU^?@]2
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 724 23
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_1536x39
+R1
+R14
+!i10b 1
+!s100 Ic^=N2S`U?KVIfEeWJ1b^3
+R3
+I7zMzaC2EkhC5_dK@b0Bkf3
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 161 22
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_16384x39
+R1
+R14
+!i10b 1
+!s100 <hCBz8ZHOc_ZnHBTH67d^2
+R3
+Im53fdN^L@f;6GDDOPO1z>2
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 44 22
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_2048x34
+R1
+R14
+!i10b 1
+!s100 Z08L]?QP;fG;PSXa:_0073
+R3
+I6]hH0f6E0^Zf]SjBQ2e0M3
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 449 23
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_2048x39
+R1
+R14
+!i10b 1
+!s100 <XVD>@DSF1@^7GD7MIGzD2
+R3
+IH26<11i;CmR]lcNJ6DjOB3
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 138 22
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_2048x42
+R1
+R14
+!i10b 1
+!s100 H<]CdP55]0AdkJG9hCN5<1
+R3
+IUMi4gAN[7ZY:4g=<LTG=40
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 625 22
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_256x20
+R1
+R14
+!i10b 1
+!s100 RLCaG=aI[Ji2L2CL=gUaC0
+R3
+I0oT[XMXaoaKCe6nMM^l]]1
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 352 21
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_256x21
+R1
+R14
+!i10b 1
+!s100 Oh=UK[i1oDKoc<c`WB`YL1
+R3
+IUS7ROkFBdz@KTGkOzgNn[2
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 825 23
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_256x25
+R1
+R14
+!i10b 1
+!s100 _<^XobOZfh1A77nPi5?8o2
+R3
+IKL;FfHBU`7RL6Az5>gfI[0
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 950 24
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_256x34
+R1
+R14
+!i10b 1
+!s100 jl6D0fSAm8LeMW6FFDW^91
+R3
+IRRjPOfbHhd>;a0G^E3b9:0
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 524 23
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_256x39
+R1
+R14
+!i10b 1
+!s100 _JE4FznSD=@l3YoIGSKk:1
+R3
+IISf8_=cooL4ca63]22>I;0
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 256 22
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_256x42
+R1
+R14
+!i10b 1
+!s100 o<7m12`g`zc>kR]j8P=5U1
+R3
+IHW=a8e6Z^HT=oz23:DciF1
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 699 23
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_3072x39
+R1
+R14
+!i10b 1
+!s100 koI7i>f8GLGd>jW3daa>N3
+R3
+Ijoh5iDQnHg^cX06WNoU2;3
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 113 22
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_32768x39
+R1
+R14
+!i10b 1
+!s100 AV7c1_Q6C><<^7g3O=Pz_3
+R3
+IL0`Wjekn@b=9NJVlHmLVc1
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 20 22
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_4096x34
+R1
+R14
+!i10b 1
+!s100 4>9Ql>1d0cHEB>N=:bJ;m1
+R3
+IYIJ2;P`hYoh6FU0FU3>JC2
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 424 23
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_4096x39
+R1
+R14
+!i10b 1
+!s100 RTme[6Q`F@6CZ:ienT^lg2
+R3
+I?Lbh?1zDoLUhgmn>WOi_A0
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 90 22
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_4096x42
+R1
+R14
+!i10b 1
+!s100 MMLMCZY631OkX]`;WOg433
+R3
+IFL4:4QW8T:UiS?j7zBoM^1
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 599 23
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_512x20
+R1
+R14
+!i10b 1
+!s100 lH0BZBKD;aH;5<a1JE8OM0
+R3
+IGL_cSBccT]Co9AGJ]62183
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 329 22
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_512x21
+R1
+R14
+!i10b 1
+!s100 cj?eKIhjI2g[HJcZ4hGdP1
+R3
+IBaX7I5]g;MP8HI3X4UCcz0
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 800 23
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_512x25
+R1
+R14
+!i10b 1
+!s100 F=GC`=FNO62HzmYVHCTUk3
+R3
+I=`Wh_d:4Z3n@5PMjcV5871
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 924 24
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_512x34
+R1
+R14
+!i10b 1
+!s100 fUXeDm@]:3O`T`?3`WREM3
+R3
+Ik7jA>=?;<V;ZjZBT5XMce1
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 499 23
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_512x39
+R1
+R14
+!i10b 1
+!s100 Q9g2D3M9I?I60k:o20<8b2
+R3
+IU;flV@PY=NnC:`HFXL:TH0
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 232 22
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_512x42
+R1
+R14
+!i10b 1
+!s100 PdQ4Ke:1e8JeHGHeQLkKH2
+R3
+I`m_0=?YPmQVFD?BUDVE011
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 673 23
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_64x20
+R1
+R14
+!i10b 1
+!s100 Si6T>LD0oKC;VB5U?m4l_2
+R3
+ISI0j9M3hD:<2DDclnm:1Z1
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 397 22
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_64x21
+R1
+R14
+!i10b 1
+!s100 j@RTOc>WK3QHTD^[Phi`52
+R3
+I1TY`X>^AZaX<k519A4@`V0
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 875 20
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_64x25
+R1
+R14
+!i10b 1
+!s100 3@eBIWnhV83[8TkLI@=Ha3
+R3
+Ihnh@j80H]72@6g__U3Y`T2
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 1002 24
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_64x34
+R1
+R14
+!i10b 1
+!s100 fDge=`9OLUHTl2c]YTTRi2
+R3
+IGidb61h6eAG<NYFlhSXH41
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 573 22
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_64x42
+R1
+R14
+!i10b 1
+!s100 ?TRDj7>5i`ajEi=`0LP343
+R3
+I0V^HCl;iC0G?Z[[n4hIak2
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 749 20
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_768x39
+R1
+R14
+!i10b 1
+!s100 hVnHeeb^DDBhn^nf840AG3
+R3
+I:om^Md<18QXX`m9<=;7mj3
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 208 22
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vram_8192x39
+R1
+R14
+!i10b 1
+!s100 Q30m<n3UJ^UeW_:znBb3G2
+R3
+I1emg>Wa[R9f=GcK8?k7KW1
+S1
+R0
+R4
+R91
+R92
+!i122 324
+L0 67 22
+R5
+R6
+r1
+!s85 0
+31
+R15
+R93
+R94
+!i113 0
+R8
+R9
+vraminfr
+R44
+!i10b 1
+!s100 5PkOI2]Q0CR;BDMXHCUZ?0
+R3
+IOgfhlSE_KzCfYf3_zJ_Z;0
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/raminfr.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/raminfr.v
+!i122 307
+L0 83 28
+R5
+R6
+r1
+!s85 0
+31
+R45
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/raminfr.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/raminfr.v|
+!i113 0
+R11
+R9
+vrr_arb_tree
+R1
+Z95 !s110 1605474598
+!i10b 1
+!s100 7f@f0a2k2Aa:<JHAoAX1N3
+R3
+Io;h<TF6]TeAFa9g<YRgQM0
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/rr_arb_tree.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/rr_arb_tree.sv
+!i122 260
+L0 34 219
+R5
+R6
+r1
+!s85 0
+31
+R90
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/rr_arb_tree.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/rr_arb_tree.sv|
+!i113 0
+R8
+R9
+vrrarbiter
+R1
+R12
+!i10b 1
+!s100 ?16]bFhQEI`b1bTkGnKe:2
+R3
+I08<Q2fdXo^VO@KRM`Zk323
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/rrarbiter.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/rrarbiter.sv
+!i122 288
+L0 24 38
+R5
+R6
+r1
+!s85 0
+31
+R83
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/rrarbiter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/deprecated/rrarbiter.sv|
+!i113 0
+R8
+R9
+vrstgen
+R1
+R95
+!i10b 1
+!s100 C5kNAQJ@6UfRUn1U?PQob3
+R3
+IZYKM7iGB]AS>HY_[B<nVl1
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/rstgen.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/rstgen.sv
+!i122 261
+L0 13 18
+R5
+R6
+r1
+!s85 0
+31
+Z96 !s108 1605474598.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/rstgen.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/rstgen.sv|
+!i113 0
+R8
+R9
+vrstgen_bypass
+R1
+R95
+!i10b 1
+!s100 B8@jlDGlMf8[_SnP]VA6M2
+R3
+I[YFnYXWTE1QnnKXoQ05og3
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/rstgen_bypass.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/rstgen_bypass.sv
+!i122 262
+L0 15 40
+R5
+R6
+r1
+!s85 0
+31
+R96
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/rstgen_bypass.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/rstgen_bypass.sv|
+!i113 0
+R8
+R9
+vrvdff
+R1
+R14
+!i10b 1
+!s100 K>iild;K=e<2FJ2FNYZmc2
+R3
+IWj6fUZZ_QcJ5IOiQ<X20e0
+S1
+R0
+R4
+Z97 8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/lib/beh_lib.sv
+Z98 FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/lib/beh_lib.sv
+!i122 323
+L0 20 24
+R5
+R6
+r1
+!s85 0
+31
+R15
+Z99 !s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/lib/beh_lib.sv|
+Z100 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/lib/beh_lib.sv|
+!i113 0
+R8
+R9
+vrvdffs
+R1
+R14
+!i10b 1
+!s100 oD7Z;=?m;WnaFY`_>:fo61
+R3
+Ik6d]1UooSb8KT^GEK1c^U3
+S1
+R0
+R4
+R97
+R98
+!i122 323
+L0 46 12
+R5
+R6
+r1
+!s85 0
+31
+R15
+R99
+R100
+!i113 0
+R8
+R9
+vrvdffsc
+R1
+R14
+!i10b 1
+!s100 n=7lBDM`b^7>N<Zk[bzNf0
+R3
+Im7V6>AI_UGGC=Imn4WfkP3
+S1
+R0
+R4
+R97
+R98
+!i122 323
+L0 60 15
+R5
+R6
+r1
+!s85 0
+31
+R15
+R99
+R100
+!i113 0
+R8
+R9
+vrvjtag_tap
+R1
+R77
+!i10b 1
+!s100 joVX?6ECR3KI`cR;o9]FW3
+R3
+Im6QFRD4B1PK^7nidJ8gdL2
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/dmi/rvjtag_tap.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/dmi/rvjtag_tap.sv
+!i122 319
+L0 16 208
+R5
+R6
+r1
+!s85 0
+31
+R78
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/dmi/rvjtag_tap.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/SweRVEh1CoreComplex/dmi/rvjtag_tap.sv|
+!i113 0
+R8
+R9
+vserial_deglitch
+R1
+R95
+!i10b 1
+!s100 :ib`ed[o74jMn24MAo<]B0
+R3
+I;26XSizlR1VfLEm:R10bB2
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/serial_deglitch.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/serial_deglitch.sv
+!i122 263
+L0 15 36
+R5
+R6
+r1
+!s85 0
+31
+R96
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/serial_deglitch.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/serial_deglitch.sv|
+!i113 0
+R8
+R9
+vserv_alu
+R52
+!i10b 1
+!s100 943?6ITJbZHBf3PD02AKT0
+R3
+IRnHZ>JBoKI<]P<;]7;X841
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_alu.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_alu.v
+!i122 214
+L0 2 105
+R5
+R6
+r1
+!s85 0
+31
+R53
 !s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_alu.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_alu.v|
 !i113 0
-R7
-R8
+R11
+R9
 vserv_bufreg
-R1
+R52
 !i10b 1
 !s100 @^^Md2ng>A8A]1J9dFLS@2
-R2
+R3
 IiF^]k<S8DQem]?dV;lXKo1
 R0
-R3
+R4
 8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_bufreg.v
 FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_bufreg.v
-!i122 12
+!i122 213
 L0 1 42
-R4
 R5
+R6
 r1
 !s85 0
 31
-Z11 !s108 1605435630.000000
+R53
 !s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_bufreg.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_bufreg.v|
 !i113 0
-R7
-R8
+R11
+R9
 vserv_csr
-Z12 !s110 1605435630
+Z101 !s110 1605474583
 !i10b 1
 !s100 =l^XL7?8:fTMj?][O_ITl3
-R2
+R3
 I`WTTa8MD?6b^PnEPVM5zY1
 R0
-R3
+R4
 8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_csr.v
 FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_csr.v
-Z13 FC:\git\ECE540-finalproject\rvfpga_28Oct2020\src\LiteDRAM\serv_1.0.2\serv_params.vh
-!i122 11
+Z102 FC:\git\ECE540-finalproject\rvfpga_28Oct2020\src\LiteDRAM\serv_1.0.2\serv_params.vh
+!i122 212
 L0 2 118
-R4
 R5
+R6
 r1
 !s85 0
 31
-R11
+Z103 !s108 1605474583.000000
 !s107 C:\git\ECE540-finalproject\rvfpga_28Oct2020\src\LiteDRAM\serv_1.0.2\serv_params.vh|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_csr.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_csr.v|
 !i113 0
-R7
-R8
+R11
+R9
 vserv_ctrl
-R12
+R101
 !i10b 1
 !s100 bH[BQaV<XhD9UW>VJK46N3
-R2
+R3
 IO3C;>EPeKOlU62cOIKA2=0
 R0
-R3
+R4
 8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_ctrl.v
 FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_ctrl.v
-!i122 10
+!i122 211
 L0 2 86
-R4
 R5
+R6
 r1
 !s85 0
 31
-R11
+R103
 !s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_ctrl.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_ctrl.v|
 !i113 0
-R7
-R8
+R11
+R9
 vserv_decode
-R12
+R101
 !i10b 1
 !s100 1nePQ77i?b4jdcE4zB9]k3
-R2
+R3
 I?_olA]zlE;FGKiKnn56WT0
 R0
-R3
+R4
 8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_decode.v
 FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_decode.v
-R13
-!i122 9
+R102
+!i122 210
 L0 2 249
-R4
 R5
+R6
 r1
 !s85 0
 31
-R11
+R103
 !s107 C:\git\ECE540-finalproject\rvfpga_28Oct2020\src\LiteDRAM\serv_1.0.2\serv_params.vh|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_decode.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_decode.v|
 !i113 0
-R7
-R8
+R11
+R9
 vserv_mem_if
-R12
+R101
 !i10b 1
 !s100 <_>5BnZba=Rf9B43fzM_S0
-R2
+R3
 IJG4NY1oK2;]5O0CSaehzD1
 R0
-R3
+R4
 8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_mem_if.v
 FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_mem_if.v
-!i122 8
+!i122 209
 L0 2 67
-R4
 R5
+R6
 r1
 !s85 0
 31
-R11
+R103
 !s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_mem_if.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_mem_if.v|
 !i113 0
-R7
-R8
+R11
+R9
 vserv_rf_if
-R12
+R101
 !i10b 1
 !s100 ZBQSLjk44mjFUE`N1UmkV1
-R2
+R3
 I9F3Q[dmYGV@Ah<g]gGS>]1
 R0
-R3
+R4
 8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_if.v
 FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_if.v
-R13
-!i122 7
+R102
+!i122 208
 L0 2 132
-R4
 R5
+R6
 r1
 !s85 0
 31
-Z14 !s108 1605435629.000000
+Z104 !s108 1605474582.000000
 !s107 C:\git\ECE540-finalproject\rvfpga_28Oct2020\src\LiteDRAM\serv_1.0.2\serv_params.vh|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_if.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_if.v|
 !i113 0
-R7
-R8
+R11
+R9
 vserv_rf_ram
-Z15 !s110 1605435629
+Z105 !s110 1605474582
 !i10b 1
 !s100 MZ8m:8Y`hC_?kkGZhln<k0
-R2
+R3
 IlmAeY37_C9CUzZ6B:l04k1
 R0
-R3
+R4
 8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_ram.v
 FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_ram.v
-!i122 6
+!i122 207
 L0 1 26
-R4
 R5
+R6
 r1
 !s85 0
 31
-R14
+R104
 !s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_ram.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_ram.v|
 !i113 0
-R7
-R8
+R11
+R9
 vserv_rf_ram_if
-R15
+R105
 !i10b 1
 !s100 o0MS`5hKEMbfD;cUnFVGm1
-R2
+R3
 IL407j_8`GXYWklZdI;?VM1
 R0
-R3
+R4
 8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_ram_if.v
 FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_ram_if.v
-!i122 5
+!i122 206
 L0 2 160
-R4
 R5
+R6
 r1
 !s85 0
 31
-R14
+R104
 !s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_ram_if.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_ram_if.v|
 !i113 0
-R7
-R8
+R11
+R9
 vserv_rf_top
-R15
+R105
 !i10b 1
 !s100 N<AocO2mgKJTFZngk>dV>1
-R2
+R3
 ICXoUNOh0K:_bdzG9hUf;F1
 R0
-R3
+R4
 8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_top.v
 FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_top.v
-!i122 4
+!i122 205
 L0 3 161
-R4
 R5
+R6
 r1
 !s85 0
 31
-R14
+R104
 !s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_top.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_rf_top.v|
 !i113 0
-R7
-R8
+R11
+R9
 vserv_shift
-R15
+R105
 !i10b 1
 !s100 m6eN>2oL]Pz<Yi`8oBD?31
-R2
+R3
 IzFKgmRVi3kVDbW^LO1jK71
 R0
-R3
+R4
 8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_shift.v
 FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_shift.v
-!i122 3
+!i122 204
 L0 2 29
-R4
 R5
+R6
 r1
 !s85 0
 31
-R14
+R104
 !s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_shift.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_shift.v|
 !i113 0
-R7
-R8
-vserv_state
+R11
 R9
+vserv_state
+R105
 !i10b 1
 !s100 cmDVG47kF]zWzRITKUz>m2
-R2
+R3
 I?J2`mfR<C5Ha7HV8bf@IB0
 R0
-R3
+R4
 8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_state.v
 FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_state.v
-!i122 2
+!i122 203
 L0 1 153
-R4
 R5
+R6
 r1
 !s85 0
 31
-R10
+R87
 !s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_state.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_state.v|
 !i113 0
-R7
-R8
-vserv_top
+R11
 R9
+vserv_top
+R86
 !i10b 1
 !s100 ENG]KX3d[2BBN:RfaZ`K72
-R2
+R3
 IQonFboj3U=>9SED]5?[X80
 R0
-R3
+R4
 8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_top.v
 FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_top.v
-!i122 1
+!i122 202
 L0 3 492
-R4
 R5
+R6
 r1
 !s85 0
 31
-R10
+R87
 !s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_top.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/LiteDRAM/serv_1.0.2/serv_top.v|
 !i113 0
-R7
+R11
+R9
+vSevenSegDecoder
+R44
+!i10b 1
+!s100 5zV:]_PFbRjLXb827SD_P0
+R3
+IHCl@6_bVJ?Se>=4[R8<]G1
+R0
+R4
+Z106 8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/SystemController/swervolf_syscon.v
+Z107 FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/SystemController/swervolf_syscon.v
+!i122 305
+L0 343 25
+R5
+R6
+r1
+!s85 0
+31
+R45
+Z108 !s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/SystemController/swervolf_syscon.v|
+Z109 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/SystemController/swervolf_syscon.v|
+!i113 0
+R11
+R9
+n@seven@seg@decoder
+vSevSegMux
+R44
+!i10b 1
+!s100 z:_hj?VF_>X9JHd;Tn:l_0
+R3
+IU^n6=?<BoI[g1J_9@h=hV3
+R0
+R4
+R106
+R107
+!i122 305
+L0 371 16
+R5
+R6
+r1
+!s85 0
+31
+R45
+R108
+R109
+!i113 0
+R11
+R9
+n@sev@seg@mux
+vshift_reg
+R1
+R95
+!i10b 1
+!s100 zT0cT^dY^`mADXiS;G4VD3
+R3
+I:[H8@dR>5nf?egn]<Na2]3
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/shift_reg.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/shift_reg.sv
+!i122 264
+L0 16 38
+R5
+R6
+r1
+!s85 0
+31
+R96
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/shift_reg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/shift_reg.sv|
+!i113 0
 R8
+R9
+vsimple_spi
+R44
+!i10b 1
+!s100 NaHE`o^<z=<cCP9L<VRW12
+R3
+IGH93l<alClcbTme04;2[>0
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/spi/simple_spi_top.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/spi/simple_spi_top.v
+!i122 304
+L0 69 266
+R5
+R6
+r1
+!s85 0
+31
+R81
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/spi/simple_spi_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/spi/simple_spi_top.v|
+!i113 0
+R11
+R9
+vspill_register
+R1
+Z110 !s110 1605474599
+!i10b 1
+!s100 `zPM^kn:1:Sn?f6m_JJ]D1
+R3
+ITX[e>gOW8?Pj@Q1eE5NRQ3
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/spill_register.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/spill_register.sv
+!i122 265
+L0 17 79
+R5
+R6
+r1
+!s85 0
+31
+Z111 !s108 1605474599.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/spill_register.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/spill_register.sv|
+!i113 0
+R8
+R9
+vstream_arbiter
+R1
+R110
+!i10b 1
+!s100 UZY5SC?7LZAR<I1][84K>1
+R3
+IR2]G0DJ3i92XQFmn@TX2U2
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_arbiter.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_arbiter.sv
+!i122 266
+L0 16 34
+R5
+R6
+r1
+!s85 0
+31
+R111
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_arbiter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_arbiter.sv|
+!i113 0
+R8
+R9
+vstream_arbiter_flushable
+R1
+R110
+!i10b 1
+!s100 C]i`2S_VTW@aD<9^bjS:N3
+R3
+IQ7Ac9gfXf6LMIB?>SF1Uc2
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_arbiter_flushable.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_arbiter_flushable.sv
+!i122 267
+R37
+R5
+R6
+r1
+!s85 0
+31
+R111
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_arbiter_flushable.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_arbiter_flushable.sv|
+!i113 0
+R8
+R9
+vstream_delay
+R1
+R110
+!i10b 1
+!s100 WQkGJ7Mh<W=oIl]Ok1Egl0
+R3
+IDMXVeUi@nAKd6a6BY]4?M3
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_delay.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_delay.sv
+!i122 268
+L0 14 119
+R5
+R6
+r1
+!s85 0
+31
+R111
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_delay.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_delay.sv|
+!i113 0
+R8
+R9
+vstream_demux
+R1
+R110
+!i10b 1
+!s100 Zl]f<P@Fo?6K<3n[3eMKj0
+R3
+I5]V8b;Q7Y>g5lk8^0H1PD2
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_demux.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_demux.sv
+!i122 269
+L0 17 21
+R5
+R6
+r1
+!s85 0
+31
+R111
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_demux.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_demux.sv|
+!i113 0
+R8
+R9
+vstream_filter
+R1
+Z112 !s110 1605474600
+!i10b 1
+!s100 cV8W9kc[e2?cA7EkPJ^XO0
+R3
+I`kOo]A2FKOZ9a<Lb:3V971
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_filter.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_filter.sv
+!i122 270
+L0 13 14
+R5
+R6
+r1
+!s85 0
+31
+Z113 !s108 1605474600.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_filter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_filter.sv|
+!i113 0
+R8
+R9
+vstream_fork
+R1
+R112
+!i10b 1
+!s100 R5eCd@hKiImJo[mZ@;:^11
+R3
+IH>G<ATHghLg:m5Ko2feX43
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_fork.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_fork.sv
+!i122 271
+L0 19 115
+R5
+R6
+r1
+!s85 0
+31
+R113
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_fork.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_fork.sv|
+!i113 0
+R8
+R9
+vstream_mux
+R1
+R112
+!i10b 1
+!s100 Q^V2LX6kIaaFBk<e:M3eP3
+R3
+IDThKzBNk75Ki73VD@?B_l3
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_mux.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_mux.sv
+!i122 272
+L0 14 33
+R5
+R6
+r1
+!s85 0
+31
+R113
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_mux.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_mux.sv|
+!i113 0
+R8
+R9
+vstream_register
+R1
+R112
+!i10b 1
+!s100 0Cj4RS<>QZPi3DITF@[lJ2
+R3
+I9N6Tz9?d;V9iM1KJn0]KJ0
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_register.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_register.sv
+!i122 273
+L0 14 44
+R5
+R6
+r1
+!s85 0
+31
+R113
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_register.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/stream_register.sv|
+!i113 0
+R8
+R9
+vsub_per_hash
+R1
+R65
+!i10b 1
+!s100 :ZIlnU@__FJhCAb@@F@UD2
+R3
+II@?zXzUij=FC[X;SDOBRO3
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/sub_per_hash.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/sub_per_hash.sv
+!i122 274
+L0 39 135
+R5
+R6
+r1
+!s85 0
+31
+R113
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/sub_per_hash.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/sub_per_hash.sv|
+!i113 0
+R8
+R9
+vsync
+R1
+R65
+!i10b 1
+!s100 dg30??ZRSG;5:5_lH6[hD1
+R3
+Ila=Y7ggX85Oi9D>^2ZM3P0
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/sync.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/sync.sv
+!i122 275
+L0 15 22
+R5
+R6
+r1
+!s85 0
+31
+R66
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/sync.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/sync.sv|
+!i113 0
+R8
+R9
+vsync2_pgen
+Z114 !s110 1605474605
+!i10b 1
+!s100 MRXn@R8I2akmXd4HTiU0m1
+R3
+Id?FeHa8FE2aZW[G0G^Rjh1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2/cdc_utils_0.1/sync2_pgen.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2/cdc_utils_0.1/sync2_pgen.v
+!i122 291
+L0 15 18
+R5
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2/cdc_utils_0.1/sync2_pgen.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2/cdc_utils_0.1/sync2_pgen.v|
+!i113 0
+R11
+R9
+vsync_wedge
+R1
+R65
+!i10b 1
+!s100 TLjggbSgYbP]Qccj_oXLa0
+R3
+Iz00jP7dZ`=n86=?[ggmld3
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/sync_wedge.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/sync_wedge.sv
+!i122 276
+L0 13 44
+R5
+R6
+r1
+!s85 0
+31
+R66
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/sync_wedge.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/sync_wedge.sv|
+!i113 0
+R8
+R9
+vuart_receiver
+Z115 !s110 1605474610
+!i10b 1
+!s100 C9:bf_Z]Ef:dJ[3]??PC]1
+R3
+I5_o831?geM04GH72clc5V1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_receiver.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_receiver.v
+!i122 308
+L0 196 282
+R5
+R6
+r1
+!s85 0
+31
+R45
+!s107 C:\git\ECE540-finalproject\rvfpga_28Oct2020\src\SweRVolfSoC\Peripherals\uart\uart_defines.v|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_receiver.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_receiver.v|
+!i113 0
+R11
+R9
+vuart_regs
+R115
+!i10b 1
+!s100 UNIcANiXhW`Nj^@4W]Ibj2
+R3
+I^n6M3SlnzFdXFJ5jWQa]C1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_regs.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_regs.v
+!i122 309
+L0 227 662
+R5
+R6
+r1
+!s85 0
+31
+Z116 !s108 1605474610.000000
+!s107 C:\git\ECE540-finalproject\rvfpga_28Oct2020\src\SweRVolfSoC\Peripherals\uart\uart_defines.v|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_regs.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_regs.v|
+!i113 0
+R11
+R9
+vuart_rfifo
+R115
+!i10b 1
+!s100 m84MKG>90N[3zT]YR8V013
+R3
+IeIS6C^HdmK:9_fPnd_OhM3
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_rfifo.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_rfifo.v
+!i122 310
+L0 146 171
+R5
+R6
+r1
+!s85 0
+31
+R116
+!s107 C:\git\ECE540-finalproject\rvfpga_28Oct2020\src\SweRVolfSoC\Peripherals\uart\uart_defines.v|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_rfifo.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_rfifo.v|
+!i113 0
+R11
+R9
+vuart_sync_flops
+R115
+!i10b 1
+!s100 TAzIBBnb@_Re]F4L<`RU<2
+R3
+I3OX4n[dlI?FEDD3H<Z1b[2
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_sync_flops.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_sync_flops.v
+!i122 311
+L0 67 51
+R5
+R6
+r1
+!s85 0
+31
+R116
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_sync_flops.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_sync_flops.v|
+!i113 0
+R11
+R9
+vuart_tfifo
+R115
+!i10b 1
+!s100 8]6gd]BJHe8L]XeLHeoB=1
+R3
+IKW[NI]JM7emYRLRB_jG3l3
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_tfifo.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_tfifo.v
+!i122 312
+L0 140 100
+R5
+R6
+r1
+!s85 0
+31
+R116
+!s107 C:\git\ECE540-finalproject\rvfpga_28Oct2020\src\SweRVolfSoC\Peripherals\uart\uart_defines.v|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_tfifo.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_tfifo.v|
+!i113 0
+R11
+R9
+vuart_top
+Z117 !s110 1605474611
+!i10b 1
+!s100 C:l<4:R<4QcPf>7=Sf?0d1
+R3
+IDIVo5cmQ6WW5@?FGLdCoP0
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_top.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_top.v
+!i122 313
+L0 137 123
+R5
+R6
+r1
+!s85 0
+31
+R116
+!s107 C:\git\ECE540-finalproject\rvfpga_28Oct2020\src\SweRVolfSoC\Peripherals\uart\uart_defines.v|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_top.v|
+!i113 0
+R11
+R9
+vuart_transmitter
+R117
+!i10b 1
+!s100 jeT7ZhlF`FA<_UMLI_c@j0
+R3
+I7`ln0Kdn]a[Jd<inemKXf2
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_transmitter.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_transmitter.v
+!i122 314
+L0 150 205
+R5
+R6
+r1
+!s85 0
+31
+Z118 !s108 1605474611.000000
+!s107 C:\git\ECE540-finalproject\rvfpga_28Oct2020\src\SweRVolfSoC\Peripherals\uart\uart_defines.v|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_transmitter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_transmitter.v|
+!i113 0
+R11
+R9
+vuart_wb
+R117
+!i10b 1
+!s100 ZIDaJ;eF>CMKY6JjbTZ[P3
+R3
+IBDFaEaK5lG>YTkbHW1a@42
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_wb.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_wb.v
+!i122 315
+L0 139 110
+R5
+R6
+r1
+!s85 0
+31
+R118
+!s107 C:\git\ECE540-finalproject\rvfpga_28Oct2020\src\SweRVolfSoC\Peripherals\uart\uart_defines.v|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_wb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/uart/uart_wb.v|
+!i113 0
+R11
+R9
+vunread
+R1
+R65
+!i10b 1
+!s100 DB9FlkePX9kCczGL:za3>3
+R3
+IG43UT^ceVOl[XKaCS^5_k1
+S1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/unread.sv
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/unread.sv
+!i122 277
+L0 16 5
+R5
+R6
+r1
+!s85 0
+31
+R66
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/unread.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/OtherSources/PulpPlatform/pulp-platform.org__common_cells_1.16.4/src/unread.sv|
+!i113 0
+R8
+R9
+vwb_arbiter
+R114
+!i10b 1
+!s100 <zjVPRfOO:8QP?^;WQ8dR3
+R3
+IBfSzU<`713VQ]L[Q44__63
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2/wb_arbiter.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2/wb_arbiter.v
+!i122 292
+L0 25 89
+R5
+R6
+r1
+!s85 0
+31
+Z119 !s108 1605474605.000000
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2/wb_arbiter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2/wb_arbiter.v|
+!i113 0
+R11
+R9
+vwb_cdc
+R114
+!i10b 1
+!s100 bI8NZjSADCY48LHJVUf`52
+R3
+In?L@QSa<ZUC7KA07UBlj01
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2/wb_cdc.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2/wb_cdc.v
+!i122 293
+L0 26 74
+R5
+R6
+r1
+!s85 0
+31
+R119
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2/wb_cdc.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2/wb_cdc.v|
+!i113 0
+R11
+R9
+vwb_data_resize
+R114
+!i10b 1
+!s100 dmSe]YBS]AG5TC7>KjHGQ0
+R3
+I=]687P;KOT8G9`Y`oDj;Y3
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2/wb_data_resize.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2/wb_data_resize.v
+!i122 294
+L0 19 56
+R5
+R6
+r1
+!s85 0
+31
+R119
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2/wb_data_resize.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2/wb_data_resize.v|
+!i113 0
+R11
+R9
+vwb_intercon
+R10
+!i10b 1
+!s100 f=?fBGV0KGFMd@9JnClN22
+R3
+I9i^4aQ?h9Cg:ojVXz;0G11
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon.v
+!i122 296
+L0 1 140
+R5
+R6
+r1
+!s85 0
+31
+R119
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon.v|
+!i113 0
+R11
+R9
+vwb_mem_wrapper
+R35
+!i10b 1
+!s100 T<ZVj3EiBPQ3FV5h:BC:d1
+R3
+IHUfUbMhmkkZ[KcaPU[aoY1
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/BootROM/wb_mem_wrapper.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/BootROM/wb_mem_wrapper.v
+!i122 300
+L0 25 48
+R5
+R6
+r1
+!s85 0
+31
+R36
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/BootROM/wb_mem_wrapper.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Peripherals/BootROM/wb_mem_wrapper.v|
+!i113 0
+R11
+R9
+vwb_mux
+R114
+!i10b 1
+!s100 [PDljnS5CYEYbfi8idYh;0
+R3
+Io48SNblcS4=^0J6Ng`dN;2
+R0
+R4
+8C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2/wb_mux.v
+FC:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2/wb_mux.v
+!i122 295
+L0 45 98
+R5
+R6
+r1
+!s85 0
+31
+R119
+!s107 C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2/wb_mux.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/git/ECE540-finalproject/rvfpga_28Oct2020/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2/wb_mux.v|
+!i113 0
+R11
+R9
