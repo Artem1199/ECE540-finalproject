@@ -106,6 +106,9 @@ module swervolf_syscon
 
    wire reg_we = i_wb_cyc & i_wb_stb & i_wb_we & !o_wb_ack;
 
+    reg  [ 7:0]  Enables_Reg;
+    reg  [31:0]  Digits_Reg;
+
    //00 = ver
    //04 = sha
    //08 = simprint
@@ -248,8 +251,7 @@ module swervolf_syscon
 
 	// Eight-Digit 7 Segment Displays
 
-	  reg  [ 7:0]  Enables_Reg;
-	  reg  [31:0]  Digits_Reg;
+
 
 	  SevSegDisplays_Controller SegDispl_Ctr(
 	    .clk               (i_clk),    
