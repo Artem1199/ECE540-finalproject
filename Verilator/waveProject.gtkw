@@ -1,0 +1,163 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Thu Nov 26 20:01:02 2020
+[*]
+[dumpfile] "/home/artem/Desktop/RVfpga_16-Nov/examples/VS_Project2/.pio/build/swervolf_nexys/trace.vcd"
+[dumpfile_mtime] "Wed Nov 25 20:10:44 2020"
+[dumpfile_size] 22616311
+[savefile] "/home/artem/Desktop/waveProject.gtkw"
+[timestart] 1405
+[size] 2560 1375
+[pos] -931 -375
+*-5.166216 1658 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] rvfpgasim.
+[treeopen] rvfpgasim.swervolf.
+[treeopen] rvfpgasim.swervolf.axi_intercon.axi_xbar.gen_mst_port_mux(0).i_axi_mux.
+[treeopen] rvfpgasim.swervolf.axi_intercon.axi_xbar.gen_mst_port_mux(0).i_axi_mux.gen_mux.gen_id_prepend(0).
+[treeopen] rvfpgasim.swervolf.axi_intercon.axi_xbar.gen_mst_port_mux(1).i_axi_mux.
+[treeopen] rvfpgasim.swervolf.axi_intercon.axi_xbar.gen_mst_port_mux(1).i_axi_mux.gen_mux.
+[treeopen] rvfpgasim.swervolf.axi_intercon.axi_xbar.gen_mst_port_mux(1).i_axi_mux.gen_mux.gen_id_prepend(0).
+[treeopen] rvfpgasim.swervolf.axi_intercon.axi_xbar.gen_slv_port_demux(0).i_axi_demux.
+[treeopen] rvfpgasim.swervolf.axi_intercon.axi_xbar.gen_slv_port_demux(0).i_axi_demux.gen_demux.
+[treeopen] rvfpgasim.swervolf.axi_intercon.axi_xbar.gen_slv_port_demux(0).i_axi_demux.gen_demux.i_r_mux.
+[treeopen] rvfpgasim.swervolf.axi_intercon.axi_xbar.gen_slv_port_demux(0).i_axi_err_slv.
+[treeopen] rvfpgasim.swervolf.axi_intercon.axi_xbar.gen_slv_port_demux(1).i_axi_ar_decode.
+[treeopen] rvfpgasim.swervolf.swerv_eh1.
+[treeopen] rvfpgasim.swervolf.swerv_eh1.mem.
+[treeopen] rvfpgasim.swervolf.swerv_eh1.mem.icm.ic_data_inst.
+[treeopen] rvfpgasim.swervolf.swerv_eh1.mem.icm.ic_data_inst.WAYS(0).
+[treeopen] rvfpgasim.swervolf.swerv_eh1.mem.icm.ic_data_inst.WAYS(0).SUBBANKS(0).
+[treeopen] rvfpgasim.swervolf.swerv_eh1.swerv.
+[treeopen] rvfpgasim.swervolf.swerv_eh1.swerv.dec.
+[treeopen] rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.
+[treeopen] rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.genblock.
+[treeopen] rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.genblock.dff.
+[sst_width] 425
+[signals_width] 198
+[sst_expanded] 1
+[sst_vpaned_height] 719
+@28
+rvfpgasim.swervolf.swerv_eh1.swerv.ifu.clk
+@22
+rvfpgasim.swervolf.axi_intercon.i_ifu_araddr[31:0]
+rvfpgasim.ram_rdata[63:0]
+rvfpgasim.swervolf.swerv_eh1.ifu_axi_rdata[63:0]
+rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.ifu_axi_rdata[63:0]
+rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.axi_data_ff.dout[63:0]
+@c00022
+rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+@28
+(0)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(1)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(2)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(3)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(4)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(5)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(6)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(7)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(8)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(9)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(10)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(11)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(12)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(13)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(14)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(15)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(16)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(17)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(18)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(19)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(20)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(21)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(22)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(23)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(24)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(25)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(26)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(27)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(28)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(29)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(30)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(31)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(32)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(33)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(34)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(35)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(36)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(37)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(38)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(39)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(40)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(41)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(42)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(43)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(44)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(45)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(46)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(47)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(48)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(49)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(50)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(51)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(52)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(53)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(54)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(55)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(56)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(57)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(58)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(59)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(60)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(61)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(62)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+(63)rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half.dout[63:0]
+@1401200
+-group_end
+@200
+-1st Half
+@22
+rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_second_half.dout[63:0]
+@200
+-2nd Half
+@22
+rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.ic_wr_data[67:0]
+@200
+-out of mem_ctl
+@22
+rvfpgasim.swervolf.swerv_eh1.swerv.ic_wr_data[67:0]
+@200
+-ic_data_inst
+@22
+[color] 3
+rvfpgasim.swervolf.swerv_eh1.mem.ic_wr_data[67:0]
+[color] 2
+rvfpgasim.swervolf.swerv_eh1.mem.icm.ic_rd_data[135:0]
+rvfpgasim.swervolf.swerv_eh1.swerv.ifu.ic_data_f2[127:0]
+rvfpgasim.swervolf.swerv_eh1.swerv.ifu.aln.ifu_fetch_data[127:0]
+rvfpgasim.swervolf.swerv_eh1.swerv.ifu.aln.ifu_i1_instr[31:0]
+rvfpgasim.swervolf.swerv_eh1.swerv.ifu.aln.ifu_i0_instr[31:0]
+rvfpgasim.swervolf.swerv_eh1.swerv.dec.instbuff.ifu_i1_instr[31:0]
+rvfpgasim.swervolf.swerv_eh1.swerv.dec.instbuff.ifu_i0_instr[31:0]
+@23
+rvfpgasim.swervolf.swerv_eh1.swerv.dec.instbuff.dec_i1_instr_d[31:0]
+@22
+rvfpgasim.swervolf.swerv_eh1.swerv.dec.instbuff.dec_i0_instr_d[31:0]
+@20000
+-
+@22
+rvfpgasim.swervolf.swerv_eh1.swerv.ifu.ifu_i0_instr[31:0]
+rvfpgasim.swervolf.bootrom.mem_rdata[63:0]
+rvfpgasim.swervolf.swerv_eh1.swerv.ifu.ifu_i1_pc[31:1]
+rvfpgasim.swervolf.bootrom.i_wb_dat[31:0]
+rvfpgasim.swervolf.bootrom.mem_rdata[63:0]
+rvfpgasim.swervolf.bootrom.i_wb_dat[31:0]
+rvfpgasim.swervolf.bootrom.o_wb_rdt[31:0]
+@28
+rvfpgasim.swervolf.bootrom.o_wb_ack
+@22
+rvfpgasim.swervolf.axi_intercon.i_ram_rdata[63:0]
+rvfpgasim.ram_rdata[63:0]
+@28
+rvfpgasim.swervolf.swerv_eh1.swerv.ifu.mem_ctl.byp_data_first_half_val.dout[0]
+[pattern_trace] 1
+[pattern_trace] 0
