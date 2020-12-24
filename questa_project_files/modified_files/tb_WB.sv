@@ -1,5 +1,7 @@
 `timescale 1ns/1ns
 
+`include "common_defines.vh"
+
 module tb_WB ;
 
 	localparam CLK_PERIOD = 10;
@@ -35,23 +37,26 @@ module tb_WB ;
 
 	Wishbone_if wbif(clk_100, ~rstn);
 
-	tb_core DUT(
+	swervolf_core DUT(
 		.clk(clk_100),
 		.io_data(io_data_tri),
 		.*);
 
-	assign DUT.wb_adr			= wbif.adr;
-	assign DUT.wb_m2s_io_dat	= wbif.dat_o;
-	assign DUT.wb_m2s_io_sel	= wbif.sel;
-	assign DUT.wb_m2s_io_we		= wbif.we;
-	assign DUT.wb_m2s_io_cyc	= wbif.cyc;
-	assign DUT.wb_m2s_io_stb	= wbif.stb;
-	assign DUT.wb_m2s_io_cti	= wbif.cti;
-	assign DUT.wb_m2s_io_bte	= wbif.bte;
-	assign wbif.dat_i			= DUT.wb_s2m_io_dat;
-	assign wbif.ack				= DUT.wb_s2m_io_ack;
-	assign wbif.err				= DUT.wb_s2m_io_err;
-	assign wbif.rty				= DUT.wb_s2m_io_rty;
+	always_comb begin
+		force DUT.wb_adr		= wbif.adr;
+		force DUT.wb_m2s_io_dat	= wbif.dat_o;
+		force DUT.wb_m2s_io_sel	= wbif.sel;
+		force DUT.wb_m2s_io_we	= wbif.we;
+		force DUT.wb_m2s_io_cyc	= wbif.cyc;
+		force DUT.wb_m2s_io_stb	= wbif.stb;
+		force DUT.wb_m2s_io_cti	= wbif.cti;
+		force DUT.wb_m2s_io_bte	= wbif.bte;
+	end
+
+	assign wbif.dat_i	= DUT.wb_s2m_io_dat;
+	assign wbif.ack		= DUT.wb_s2m_io_ack;
+	assign wbif.err		= DUT.wb_s2m_io_err;
+	assign wbif.rty		= DUT.wb_s2m_io_rty;
 
 	initial begin
 		clk_100 	= 0;
@@ -99,7 +104,7 @@ module tb_WB ;
 
 		// Read and write Rojobot registers
 		wbif.single_read(32'h8000180C);					// Read status
-		wbif.single_write(32'h80001810, 32'h10);			// Write Mot_ctrl
+		wbif.single_write(32'h80001810, 32'h10);		// Write Mot_ctrl
 
 		// Write GPIO_EN
 		wbif.single_write(32'h80001408, 32'h0000FFFF);
@@ -117,23 +122,68 @@ module tb_WB ;
 
 endmodule
 
-module tb_core (
-	input wire 	clk,
-	input wire 	clk_75,
-	input wire 	rstn,
 
-	output wire		o_flash_sclk,
-	output wire		o_flash_cs_n,
-	output wire		o_flash_mosi,
-	input wire		i_flash_miso,
-
-	input wire		i_uart_rx,
-	output wire		o_uart_tx,
-	
+module swervolf_core #(
+	parameter bootrom_file  = "") (
+	input wire 	clk, clk_75,
+	input wire 	       rstn,
+	input wire 	       dmi_reg_en,
+	input wire [6:0]   dmi_reg_addr,
+	input wire 	       dmi_reg_wr_en,
+	input wire [31:0]  dmi_reg_wdata,
+	output wire [31:0] dmi_reg_rdata,
+	input wire 	       dmi_hard_reset,
+	output wire        o_flash_sclk,
+	output wire        o_flash_cs_n,
+	output wire        o_flash_mosi,
+	input wire 	       i_flash_miso,
+	input wire 	       i_uart_rx,
+	output wire        o_uart_tx,
+	output wire [5:0]  o_ram_awid,
+	output wire [31:0] o_ram_awaddr,
+	output wire [7:0]  o_ram_awlen,
+	output wire [2:0]  o_ram_awsize,
+	output wire [1:0]  o_ram_awburst,
+	output wire        o_ram_awlock,
+	output wire [3:0]  o_ram_awcache,
+	output wire [2:0]  o_ram_awprot,
+	output wire [3:0]  o_ram_awregion,
+	output wire [3:0]  o_ram_awqos,
+	output wire        o_ram_awvalid,
+	input wire 	       i_ram_awready,
+	output wire [5:0]  o_ram_arid,
+	output wire [31:0] o_ram_araddr,
+	output wire [7:0]  o_ram_arlen,
+	output wire [2:0]  o_ram_arsize,
+	output wire [1:0]  o_ram_arburst,
+	output wire        o_ram_arlock,
+	output wire [3:0]  o_ram_arcache,
+	output wire [2:0]  o_ram_arprot,
+	output wire [3:0]  o_ram_arregion,
+	output wire [3:0]  o_ram_arqos,
+	output wire        o_ram_arvalid,
+	input wire 	       i_ram_arready,
+	output wire [63:0] o_ram_wdata,
+	output wire [7:0]  o_ram_wstrb,
+	output wire        o_ram_wlast,
+	output wire        o_ram_wvalid,
+	input wire 	       i_ram_wready,
+	input wire [5:0]   i_ram_bid,
+	input wire [1:0]   i_ram_bresp,
+	input wire 	       i_ram_bvalid,
+	output wire        o_ram_bready,
+	input wire [5:0]   i_ram_rid,
+	input wire [63:0]  i_ram_rdata,
+	input wire [1:0]   i_ram_rresp,
+	input wire 	       i_ram_rlast,
+	input wire 	       i_ram_rvalid,
+	output wire        o_ram_rready,
+	input wire 	       i_ram_init_done,
+	input wire 	       i_ram_init_error,
 	inout wire [31:0]  io_data,
 	input wire [4:0]   pb_data,
-	output wire [7:0] AN,
-	output wire [7:0] Digits_Bits,
+	output wire [ 7          :0] AN,
+	output wire [ 7          :0] Digits_Bits,
 
 	output wire        o_accel_sclk,
 	output wire        o_accel_cs_n,
@@ -154,8 +204,69 @@ module tb_core (
 	wire        sw_irq3;
 	wire        nmi_int;
 
-	wire		wb_clk = clk;
-	wire		wb_rst = ~rst_n;
+	wire [31:0] nmi_vec;
+
+`include "axi_intercon.vh"
+
+	assign o_ram_awid     = ram_awid;
+	assign o_ram_awaddr   = ram_awaddr;
+	assign o_ram_awlen    = ram_awlen;
+	assign o_ram_awsize   = ram_awsize;
+	assign o_ram_awburst  = ram_awburst;
+	assign o_ram_awlock   = ram_awlock;
+	assign o_ram_awcache  = ram_awcache;
+	assign o_ram_awprot   = ram_awprot;
+	assign o_ram_awregion = ram_awregion;
+	assign o_ram_awqos    = ram_awqos;
+	assign o_ram_awvalid  = ram_awvalid;
+	assign ram_awready    = i_ram_awready;
+	assign o_ram_arid     = ram_arid;
+	assign o_ram_araddr   = ram_araddr;
+	assign o_ram_arlen    = ram_arlen;
+	assign o_ram_arsize   = ram_arsize;
+	assign o_ram_arburst  = ram_arburst;
+	assign o_ram_arlock   = ram_arlock;
+	assign o_ram_arcache  = ram_arcache;
+	assign o_ram_arprot   = ram_arprot;
+	assign o_ram_arregion = ram_arregion;
+	assign o_ram_arqos    = ram_arqos;
+	assign o_ram_arvalid  = ram_arvalid;
+	assign ram_arready    = i_ram_arready;
+	assign o_ram_wdata    = ram_wdata;
+	assign o_ram_wstrb    = ram_wstrb;
+	assign o_ram_wlast    = ram_wlast;
+	assign o_ram_wvalid   = ram_wvalid;
+	assign ram_wready     = i_ram_wready;
+	assign ram_bid        = i_ram_bid;
+	assign ram_bresp      = i_ram_bresp;
+	assign ram_bvalid     = i_ram_bvalid;
+	assign o_ram_bready   = ram_bready;
+	assign ram_rid        = i_ram_rid;
+	assign ram_rdata      = i_ram_rdata;
+	assign ram_rresp      = i_ram_rresp;
+	assign ram_rlast      = i_ram_rlast;
+	assign ram_rvalid     = i_ram_rvalid;
+	assign o_ram_rready   = ram_rready;
+
+	assign io_rlast = 1'b1;
+
+	reg [`RV_LSU_BUS_TAG+1:0]  bid;
+	reg [`RV_LSU_BUS_TAG+1:0]  rid;
+
+	always @(posedge clk)
+		if (io_awvalid & io_awready)
+			bid <= io_awid;
+
+	assign io_bid = bid;
+
+	always @(posedge clk)
+		if (io_arvalid & io_arready)
+			rid <= io_arid;
+
+	assign io_rid = rid;
+
+	wire 		      wb_clk = clk;
+	wire 		      wb_rst = ~rst_n;
 
 
 `include "wb_intercon.vh"
@@ -290,11 +401,59 @@ wb_intercon wb_intercon0
     .wb_spi_accel_rty_i (wb_s2m_spi_accel_rty));
 
 
-
-
 	wire [15:2] 		       wb_adr;
 
 	assign		       wb_m2s_io_adr = {16'd0,wb_adr,2'b00};
+
+	axi2wb #(
+		.AW (16))
+	axi2wb (
+		.i_clk       (clk),
+		.i_rst       (~rst_n),
+		.o_wb_adr    (wb_adr),
+		.o_wb_dat    (wb_m2s_io_dat),
+		.o_wb_sel    (wb_m2s_io_sel),
+		.o_wb_we     (wb_m2s_io_we),
+		.o_wb_cyc    (wb_m2s_io_cyc),
+		.o_wb_stb    (wb_m2s_io_stb),
+		.i_wb_rdt    (wb_s2m_io_dat),
+		.i_wb_ack    (wb_s2m_io_ack),
+		.i_wb_err    (1'b0),
+
+		.i_awaddr    (io_awaddr[15:0]),
+		.i_awvalid   (io_awvalid),
+		.o_awready   (io_awready),
+
+		.i_araddr    (io_araddr[15:0]),
+		.i_arvalid   (io_arvalid),
+		.o_arready   (io_arready),
+
+		.i_wdata     (io_wdata),
+		.i_wstrb     (io_wstrb),
+		.i_wvalid    (io_wvalid),
+		.o_wready    (io_wready),
+
+		.o_bvalid    (io_bvalid),
+		.i_bready    (io_bready),
+
+		.o_rdata     (io_rdata),
+		.o_rvalid    (io_rvalid),
+		.i_rready    (io_rready));
+
+	wb_mem_wrapper #(
+		.MEM_SIZE  (BOOTROM_SIZE),
+		.INIT_FILE (bootrom_file))
+	bootrom
+		(.i_clk    (wb_clk),
+		.i_rst    (wb_rst),
+		.i_wb_adr (wb_m2s_rom_adr[$clog2(BOOTROM_SIZE)-1:2]),
+		.i_wb_dat (wb_m2s_rom_dat),
+		.i_wb_sel (wb_m2s_rom_sel),
+		.i_wb_we  (wb_m2s_rom_we),
+		.i_wb_cyc (wb_m2s_rom_cyc),
+		.i_wb_stb (wb_m2s_rom_stb),
+		.o_wb_rdt (wb_s2m_rom_dat),
+		.o_wb_ack (wb_s2m_rom_ack));
 
 	swervolf_syscon syscon (
 		.i_clk            (clk),
@@ -447,7 +606,7 @@ wb_intercon wb_intercon0
 		.ext_pad_o     (),
 		.ext_padoe_o   ());
 
-	debounce #(.SIMULATE(1)) debounce_pb (
+	debounce debounce_pb (
 		.clk(clk),
 		.pbtn_in(pb_data),
 		.switch_in(io_data[31:16]),
@@ -499,8 +658,239 @@ wb_intercon wb_intercon0
 		.mosi_o (o_accel_mosi),
 		.miso_i (i_accel_miso));
 
+
+	swerv_wrapper swerv_eh1 (
+		.clk     (clk),
+		.rst_l   (rstn),
+		.dbg_rst_l   (rstn),
+		.rst_vec (31'h40000000),
+		.nmi_int (nmi_int),
+		.nmi_vec (nmi_vec[31:1]),
+
+		.trace_rv_i_insn_ip      (),
+		.trace_rv_i_address_ip   (),
+		.trace_rv_i_valid_ip     (),
+		.trace_rv_i_exception_ip (),
+		.trace_rv_i_ecause_ip    (),
+		.trace_rv_i_interrupt_ip (),
+		.trace_rv_i_tval_ip      (),
+
+		// Bus signals
+		//-------------------------- LSU AXI signals--------------------------
+		.lsu_axi_awvalid  (lsu_awvalid),
+		.lsu_axi_awready  (lsu_awready),
+		.lsu_axi_awid     (lsu_awid   ),
+		.lsu_axi_awaddr   (lsu_awaddr ),
+		.lsu_axi_awregion (lsu_awregion),
+		.lsu_axi_awlen    (lsu_awlen  ),
+		.lsu_axi_awsize   (lsu_awsize ),
+		.lsu_axi_awburst  (lsu_awburst),
+		.lsu_axi_awlock   (lsu_awlock ),
+		.lsu_axi_awcache  (lsu_awcache),
+		.lsu_axi_awprot   (lsu_awprot ),
+		.lsu_axi_awqos    (lsu_awqos  ),
+
+		.lsu_axi_wvalid   (lsu_wvalid),
+		.lsu_axi_wready   (lsu_wready),
+		.lsu_axi_wdata    (lsu_wdata),
+		.lsu_axi_wstrb    (lsu_wstrb),
+		.lsu_axi_wlast    (lsu_wlast),
+
+		.lsu_axi_bvalid   (lsu_bvalid),
+		.lsu_axi_bready   (lsu_bready),
+		.lsu_axi_bresp    (lsu_bresp ),
+		.lsu_axi_bid      (lsu_bid   ),
+
+		.lsu_axi_arvalid  (lsu_arvalid ),
+		.lsu_axi_arready  (lsu_arready ),
+		.lsu_axi_arid     (lsu_arid    ),
+		.lsu_axi_araddr   (lsu_araddr  ),
+		.lsu_axi_arregion (lsu_arregion),
+		.lsu_axi_arlen    (lsu_arlen   ),
+		.lsu_axi_arsize   (lsu_arsize  ),
+		.lsu_axi_arburst  (lsu_arburst ),
+		.lsu_axi_arlock   (lsu_arlock  ),
+		.lsu_axi_arcache  (lsu_arcache ),
+		.lsu_axi_arprot   (lsu_arprot  ),
+		.lsu_axi_arqos    (lsu_arqos   ),
+
+		.lsu_axi_rvalid   (lsu_rvalid),
+		.lsu_axi_rready   (lsu_rready),
+		.lsu_axi_rid      (lsu_rid   ),
+		.lsu_axi_rdata    (lsu_rdata ),
+		.lsu_axi_rresp    (lsu_rresp ),
+		.lsu_axi_rlast    (lsu_rlast ),
+
+		//-------------------------- IFU AXI signals--------------------------
+		.ifu_axi_awvalid  (),
+		.ifu_axi_awready  (1'b0),
+		.ifu_axi_awid     (),
+		.ifu_axi_awaddr   (),
+		.ifu_axi_awregion (),
+		.ifu_axi_awlen    (),
+		.ifu_axi_awsize   (),
+		.ifu_axi_awburst  (),
+		.ifu_axi_awlock   (),
+		.ifu_axi_awcache  (),
+		.ifu_axi_awprot   (),
+		.ifu_axi_awqos    (),
+
+		.ifu_axi_wvalid   (),
+		.ifu_axi_wready   (1'b0),
+		.ifu_axi_wdata    (),
+		.ifu_axi_wstrb    (),
+		.ifu_axi_wlast    (),
+
+		.ifu_axi_bvalid   (1'b0),
+		.ifu_axi_bready   (),
+		.ifu_axi_bresp    (2'b00),
+		.ifu_axi_bid      (3'd0),
+
+		.ifu_axi_arvalid  (ifu_arvalid ),
+		.ifu_axi_arready  (ifu_arready ),
+		.ifu_axi_arid     (ifu_arid    ),
+		.ifu_axi_araddr   (ifu_araddr  ),
+		.ifu_axi_arregion (ifu_arregion),
+		.ifu_axi_arlen    (ifu_arlen   ),
+		.ifu_axi_arsize   (ifu_arsize  ),
+		.ifu_axi_arburst  (ifu_arburst ),
+		.ifu_axi_arlock   (ifu_arlock  ),
+		.ifu_axi_arcache  (ifu_arcache ),
+		.ifu_axi_arprot   (ifu_arprot  ),
+		.ifu_axi_arqos    (ifu_arqos   ),
+
+		.ifu_axi_rvalid   (ifu_rvalid),
+		.ifu_axi_rready   (ifu_rready),
+		.ifu_axi_rid      (ifu_rid   ),
+		.ifu_axi_rdata    (ifu_rdata ),
+		.ifu_axi_rresp    (ifu_rresp ),
+		.ifu_axi_rlast    (ifu_rlast ),
+
+		//-------------------------- SB AXI signals-------------------------
+		.sb_axi_awvalid  (sb_awvalid ),
+		.sb_axi_awready  (sb_awready ),
+		.sb_axi_awid     (sb_awid    ),
+		.sb_axi_awaddr   (sb_awaddr  ),
+		.sb_axi_awregion (sb_awregion),
+		.sb_axi_awlen    (sb_awlen   ),
+		.sb_axi_awsize   (sb_awsize  ),
+		.sb_axi_awburst  (sb_awburst ),
+		.sb_axi_awlock   (sb_awlock  ),
+		.sb_axi_awcache  (sb_awcache ),
+		.sb_axi_awprot   (sb_awprot  ),
+		.sb_axi_awqos    (sb_awqos   ),
+		.sb_axi_wvalid   (sb_wvalid  ),
+		.sb_axi_wready   (sb_wready  ),
+		.sb_axi_wdata    (sb_wdata   ),
+		.sb_axi_wstrb    (sb_wstrb   ),
+		.sb_axi_wlast    (sb_wlast   ),
+		.sb_axi_bvalid   (sb_bvalid  ),
+		.sb_axi_bready   (sb_bready  ),
+		.sb_axi_bresp    (sb_bresp   ),
+		.sb_axi_bid      (sb_bid     ),
+		.sb_axi_arvalid  (sb_arvalid ),
+		.sb_axi_arready  (sb_arready ),
+		.sb_axi_arid     (sb_arid    ),
+		.sb_axi_araddr   (sb_araddr  ),
+		.sb_axi_arregion (sb_arregion),
+		.sb_axi_arlen    (sb_arlen   ),
+		.sb_axi_arsize   (sb_arsize  ),
+		.sb_axi_arburst  (sb_arburst ),
+		.sb_axi_arlock   (sb_arlock  ),
+		.sb_axi_arcache  (sb_arcache ),
+		.sb_axi_arprot   (sb_arprot  ),
+		.sb_axi_arqos    (sb_arqos   ),
+		.sb_axi_rvalid   (sb_rvalid  ),
+		.sb_axi_rready   (sb_rready  ),
+		.sb_axi_rid      (sb_rid     ),
+		.sb_axi_rdata    (sb_rdata   ),
+		.sb_axi_rresp    (sb_rresp   ),
+		.sb_axi_rlast    (sb_rlast   ),
+
+		//-------------------------- DMA AXI signals--------------------------
+		.dma_axi_awvalid  (1'b0),
+		.dma_axi_awready  (),
+		.dma_axi_awid     (`RV_DMA_BUS_TAG'd0),
+		.dma_axi_awaddr   (32'd0),
+		.dma_axi_awsize   (3'd0),
+		.dma_axi_awprot   (3'd0),
+		.dma_axi_awlen    (8'd0),
+		.dma_axi_awburst  (2'd0),
+
+		.dma_axi_wvalid   (1'b0),
+		.dma_axi_wready   (),
+		.dma_axi_wdata    (64'd0),
+		.dma_axi_wstrb    (8'd0),
+		.dma_axi_wlast    (1'b0),
+
+		.dma_axi_bvalid   (),
+		.dma_axi_bready   (1'b0),
+		.dma_axi_bresp    (),
+		.dma_axi_bid      (),
+
+		.dma_axi_arvalid  (1'b0),
+		.dma_axi_arready  (),
+		.dma_axi_arid     (`RV_DMA_BUS_TAG'd0),
+		.dma_axi_araddr   (32'd0),
+		.dma_axi_arsize   (3'd0),
+		.dma_axi_arprot   (3'd0),
+		.dma_axi_arlen    (8'd0),
+		.dma_axi_arburst  (2'd0),
+
+		.dma_axi_rvalid   (),
+		.dma_axi_rready   (1'b0),
+		.dma_axi_rid      (),
+		.dma_axi_rdata    (),
+		.dma_axi_rresp    (),
+		.dma_axi_rlast    (),
+
+		// clk ratio signals
+		.lsu_bus_clk_en (1'b1),
+		.ifu_bus_clk_en (1'b1),
+		.dbg_bus_clk_en (1'b1),
+		.dma_bus_clk_en (1'b1),
+
+		.timer_int (timer_irq),
+		.extintsrc_req ({4'd0, sw_irq4, sw_irq3, spi0_irq, uart_irq}),
+		.dec_tlu_perfcnt0 (),
+		.dec_tlu_perfcnt1 (),
+		.dec_tlu_perfcnt2 (),
+		.dec_tlu_perfcnt3 (),
+
+		.dmi_reg_rdata    (dmi_reg_rdata),
+		.dmi_reg_wdata    (dmi_reg_wdata),
+		.dmi_reg_addr     (dmi_reg_addr),
+		.dmi_reg_en       (dmi_reg_en),
+		.dmi_reg_wr_en    (dmi_reg_wr_en),
+		.dmi_hard_reset   (dmi_hard_reset),
+
+		.mpc_debug_halt_req (1'b0),
+		.mpc_debug_run_req  (1'b0),
+		.mpc_reset_run_req  (1'b1),
+		.mpc_debug_halt_ack (),
+		.mpc_debug_run_ack  (),
+		.debug_brkpt_status (),
+
+		.i_cpu_halt_req      (1'b0),
+		.o_cpu_halt_ack      (),
+		.o_cpu_halt_status   (),
+		.o_debug_mode_status (),
+		.i_cpu_run_req       (1'b0),
+		.o_cpu_run_ack       (),
+
+		.scan_mode  (1'b0),
+		.mbist_mode (1'b0)
+	);
+
+	//wire clk_75;
 	wire [11:0] pixel_row, pixel_column;
 	wire video_on;
+
+	// clk_wiz_0 clk_wiz (
+	// 	.reset(~rstn),		// Polarity?
+	// 	.clk_100(clk),
+	// 	.clk_75(clk_75)
+	// );
 
 	rojo_if rojoif();
 
@@ -512,7 +902,7 @@ wb_intercon wb_intercon0
 	// WISHBONE Interface
 	assign rojoif.wb_adr_i	= wb_m2s_rojo_adr;
 	assign rojoif.wb_dat_i	= wb_m2s_rojo_dat;
-	assign rojoif.wb_sel_i	= wb_m2s_rojo_sel;
+	assign rojoif.wb_sel_i	= 4'b1111;
 	assign rojoif.wb_we_i	= wb_m2s_rojo_we;
 	assign rojoif.wb_cyc_i	= wb_m2s_rojo_cyc;
 	assign rojoif.wb_stb_i	= wb_m2s_rojo_stb;
@@ -520,8 +910,8 @@ wb_intercon wb_intercon0
 	assign rojoif.wb_bte_i	= wb_m2s_rojo_bte;
 	assign wb_s2m_rojo_dat	= rojoif.wb_dat_o;
 	assign wb_s2m_rojo_ack	= rojoif.wb_ack_o;
-	assign wb_s2m_rojo_err	= 0;
-	assign wb_s2m_rojo_rty	= 0;
+	assign wb_s2m_rojo_err	= rojoif.wb_err_o;
+	assign wb_s2m_rojo_rty	= rojoif.wb_rtry_o;
 
 	// VGA
 	assign rojoif.pixel_column	= pixel_column;
@@ -535,7 +925,7 @@ wb_intercon wb_intercon0
 
 	dtg disp_timing_gen (
 		.clock(clk_75),
-		.rst(~rstn),		// Sync at 75Hz? Polarity?
+		.rst(~rstn),
 
 		.horiz_sync(VGA_HS),
 		.vert_sync(VGA_VS),
